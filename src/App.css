@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+/* Default CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "work Sans", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  scroll-behavior: smooth;
+  font-size: 89%;
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  overflow-x: hidden;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+};
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+/* End of Default CSS */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  background-color: #fff;
+  height: 5rem;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  transition: background-color 0.4s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar.scrolled {
+  background-color: rgb(45, 243, 243);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.logo-container {
+  margin-right: 1rem;
+}
+
+.logo-image {
+  width: 170px;
+  height: 5.8rem;
+  margin-left: -4rem;
+  margin-top: 1.2rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: rgb(29, 194, 194);
+  text-decoration: none;
+  padding: 1.7rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  transition: color 0.5s ease;
+}
+
+.nav-links a:hover {
+  color: #000;
+}
+
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-icon span {
+  background-color: #fff;
+  height: 3px;
+  width: 25px;
+  margin: 6px 0;
+  transition: 0.4s;
 }
