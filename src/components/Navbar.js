@@ -17,7 +17,11 @@ const Navbar = () => {
     }, []);
 
     const toggleMenu = () => {
+        MenuOpen (!MenuOpen)
+    };
 
+    const handleNavLinkClick = () => {
+        setMenuOpen(false)
     }
 
 };
