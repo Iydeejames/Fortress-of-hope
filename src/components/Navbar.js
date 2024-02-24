@@ -16,6 +16,10 @@ const Navbar = () => {
         };
     }, []);
 
+    const toggleMenu = () => {
+
+    }
+
 };
 
 export default Navbar;
