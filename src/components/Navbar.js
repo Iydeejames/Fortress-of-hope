@@ -31,7 +31,7 @@ const Navbar = () => {
             <div className="logo-container">
               <img src={FI1} alt="Logo" className="logo-image" />
             </div>
-            <div className={`nav-links ${MenuOpen ? "active" : ""}`}>
+            <div className={`nav-links ${MenuOpen ? "active" : "" }`}>
               <a href="#home" onClick={handleNavLinkClick}>Home</a>
               <a href="#about us" onClick={handleNavLinkClick}>About Us</a>
               <a href="#what we do" onClick={handleNavLinkClick}>What We Do</a>

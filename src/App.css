@@ -43,9 +43,9 @@ body {
   transition: background-color 0.4s ease;
 }
 
-.navbar.scrolled {
+/* .navbar.scrolled {
   background-color: rgb(45, 243, 243);
-}
+} */
 
 .container {
   display: flex;
@@ -98,4 +98,63 @@ body {
   width: 25px;
   margin: 6px 0;
   transition: 0.4s;
+}
+
+/* Hero Section */
+.hero-section {
+  height: 100vh;
+  position: relative;
+}
+
+.slideshow-container {
+  display: flex;
+  transition: transform 2s ease-in-out;
+}
+
+.slideshow-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  z-index: 2;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  z-index: 1;
+}
+
+.slide.active {
+  opacity: 0.7;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-content {
+  font-size: 2.5rem;
+  position: absolute;
+  top: 40%;
+  left: 3%;
+  text-align: center;
+  z-index: 1;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.hero-text h1 {
+  font-size: 6.6rem;
+  margin-top: 5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
