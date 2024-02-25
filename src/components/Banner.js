@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import './BannerSection.css';
 
 const loremIpsumTexts = [
   'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
