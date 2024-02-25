@@ -161,7 +161,7 @@ body {
 
 /* BannerSection.css */
 .custom-banner-section {
-  height: 60vh;
+  height: 65vh;
   position: relative;
   width: 100%;
   max-width: 600px; 
@@ -172,18 +172,18 @@ body {
 .custom-slideshow {
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .custom-slide {
   transition: opacity 1s ease-in-out;
   opacity: 0;
   position: absolute;
-  width: 100%;
+  width: auto;
 }
 
 .custom-slide p {
-  height: 45vh;
+  height: 40vh;
   background-color: rgb(29, 194, 194);
   color: white;
   padding: 20px;
@@ -206,11 +206,12 @@ body {
 }
 
 .custom-card  h2{
-  margin-left: 10%;
+  margin-left: 6%;
   display: flex;
   font-size: 2.5rem;
   color: #ccc;
-  font-style: italic;
+  font-family: cursive;
+  margin-bottom: 1.6rem;
 }
 
 /* .custom-slide button {
@@ -223,7 +224,7 @@ body {
 
 .custom-dot-container {
   position: absolute;
-  bottom: 90px;
+  bottom: 100px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
