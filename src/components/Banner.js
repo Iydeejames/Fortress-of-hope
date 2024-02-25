@@ -29,7 +29,7 @@ const BannerSection = () => {
         <div className="custom-slideshow">
           {loremIpsumTexts.map((text, index) => (
             <div key={index} className={`custom-slide ${index === currentTextIndex ? 'custom-active' : ''}`}>
-              <div className="custom-text-container">
+              <div className="custom-card">
                 <p>{text}</p>
                 <button onClick={handleSeeMore}>See more</button>
               </div>
