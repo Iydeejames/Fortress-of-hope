@@ -206,7 +206,7 @@ body {
 }
 
 .custom-card  h2{
-
+  margin-left: 10%;
   display: flex;
   font-size: 2.5rem;
   color: #ccc;
