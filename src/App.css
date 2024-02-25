@@ -164,7 +164,7 @@ body {
   height: 60vh;
   position: relative;
   width: 100%;
-  max-width: 600px; /* Adjust width as needed */
+  max-width: 600px; 
   margin: 0 auto;
   overflow: hidden;
 }
@@ -172,7 +172,7 @@ body {
 .custom-slideshow {
   display: flex;
   flex-direction: column;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .custom-slide {
@@ -200,9 +200,26 @@ body {
   opacity: 1;
 }
 
-.custom-slide button {
-  margin-top: 10px;
+.custom-card p {
+  padding-top: 4em;
+  line-height: 1.5rem;
 }
+
+.custom-card  h2{
+
+  display: flex;
+  font-size: 2.5rem;
+  color: #ccc;
+  font-style: italic;
+}
+
+/* .custom-slide button {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+} */
 
 .custom-dot-container {
   position: absolute;
