@@ -7,43 +7,44 @@ const loremIpsumTexts = [
   'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
 ];
 
+
 const BannerSection = () => {
-  const [currentTextIndex, setCurrentTextIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentTextIndex((prevIndex) => (prevIndex + 1) % loremIpsumTexts.length);
-    }, 5000); // Change text every 5 seconds
-
-    return () => clearInterval(interval);
-  }, []);
-
-  const handleSeeMore = () => {
-    // Implement logic to show full text
-    console.log('See more clicked');
+    const [currentTextIndex, setCurrentTextIndex] = useState(0);
+  
+    useEffect(() => {
+      const interval = setInterval(() => {
+        setCurrentTextIndex((prevIndex) => (prevIndex + 1) % loremIpsumTexts.length);
+      }, 5000); // Change text every 5 seconds
+  
+      return () => clearInterval(interval);
+    }, []);
+  
+    const handleSeeMore = () => {
+      // Implement logic to show full text
+      console.log('See more clicked');
+    };
+  
+    return (
+      <div className="custom-banner-section">
+        <div className="custom-slideshow">
+          {loremIpsumTexts.map((text, index) => (
+            <div key={index} className={`custom-slide ${index === currentTextIndex ? 'custom-active' : ''}`}>
+              <p>{text}</p>
+              <button onClick={handleSeeMore}>See more</button>
+            </div>
+          ))}
+        </div>
+        <div className="custom-dot-container">
+          {loremIpsumTexts.map((_, index) => (
+            <div
+              key={index}
+              className={`custom-dot ${index === currentTextIndex ? 'custom-active' : ''}`}
+              onClick={() => setCurrentTextIndex(index)}
+            />
+          ))}
+        </div>
+      </div>
+    );
   };
-
-  return (
-    <div className="banner-section">
-      <div className="slideshow">
-        {loremIpsumTexts.map((text, index) => (
-          <div key={index} className={`slide ${index === currentTextIndex ? 'active' : ''}`}>
-            <p>{text}</p>
-            <button onClick={handleSeeMore}>See more</button>
-          </div>
-        ))}
-      </div>
-      <div className="dot-container">
-        {loremIpsumTexts.map((_, index) => (
-          <div
-            key={index}
-            className={`dot ${index === currentTextIndex ? 'active' : ''}`}
-            onClick={() => setCurrentTextIndex(index)}
-          />
-        ))}
-      </div>
-    </div>
-  );
-};
-
-export default BannerSection;
+  
+  export default BannerSection;
