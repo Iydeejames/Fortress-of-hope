@@ -163,7 +163,7 @@ body {
 .custom-banner-section {
   height: 65vh;
   position: relative;
-  width: 100%;
+  width: auto;
   max-width: 600px; 
   margin: 0 auto;
   overflow: hidden;
@@ -234,7 +234,7 @@ body {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #ccc;
+  background-color: #fff;
   margin: 0 5px;
   cursor: pointer;
 }

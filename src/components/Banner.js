@@ -14,15 +14,10 @@ const BannerSection = () => {
     useEffect(() => {
       const interval = setInterval(() => {
         setCurrentTextIndex((prevIndex) => (prevIndex + 1) % loremIpsumTexts.length);
-      }, 5000); // Change text every 5 seconds
+      }, 7000); // Change text every 7 seconds
   
       return () => clearInterval(interval);
     }, []);
-  
-    const handleSeeMore = () => {
-      // Implement logic to show full text
-      console.log('See more clicked');
-    };
   
     return (
         <div className="custom-banner-section">
@@ -32,7 +27,6 @@ const BannerSection = () => {
                 <div className="custom-card">
                   <h2>FROM OUR PASTOR'S DESK</h2>
                   <p>{text}</p>
-                 
                 </div>
               </div>
             ))}

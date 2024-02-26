@@ -34,7 +34,7 @@ const HeroSection = () => {
         </div>
         <div className="hero-content">
           <div className="hero-text">
-            <h1>Fortress Of Hope Gospel Church</h1>
+            <h1>FORTRESS OF HOPE GOSPEL CHURCH</h1>
           </div>
         </div>
       </div>
