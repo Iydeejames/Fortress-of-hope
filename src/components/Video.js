@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-scroll';
-import './VideoSection.css';
+
 
 const VideoSection = () => {
   const videoRefs = Array.from({ length: 6 }, () => useRef(null));
