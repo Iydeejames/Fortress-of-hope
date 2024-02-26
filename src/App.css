@@ -159,7 +159,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* BannerSection.css */
+/* BannerSection */
 .custom-banner-section {
   height: 65vh;
   position: relative;
@@ -241,4 +241,64 @@ body {
 
 .custom-dot.custom-active {
   background-color: #000;
+}
+
+/* VideoSection.css */
+
+.video-section {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.video-section-heading {
+  font-size: 2em;
+  color: #fff;
+}
+
+.videos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.video-wrapper {
+  position: relative;
+  margin: 10px;
+  opacity: 0.5;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.video-wrapper video {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.5); /* Adjust the color and opacity */
+}
+
+.play-pause-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.scroll-down-link {
+  display: block;
+  color: #fff;
+  font-size: 1.2em;
+  margin-top: 20px;
+  cursor: pointer;
 }
