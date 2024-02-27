@@ -1,5 +1,7 @@
 import React from 'react';
 import FI2 from "../assets/imgs/FI2.PNG";
+import FI3 from "../assets/imgs/FI3.JPG";
+import FI5 from "../assets/imgs/FI5.JPG";
 
 
 const AboutSection = () => {
