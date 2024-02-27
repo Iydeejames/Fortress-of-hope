@@ -247,48 +247,43 @@ body {
 
 .video-section {
   text-align: center;
-  padding: 50px 0;
-  background-color: fff;
-}
-
-.video-section-heading {
-  font-size: 2em;
-  color: #000;
-}
-
-.videos-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   margin-top: 20px;
 }
 
-.video-wrapper {
-  position: relative;
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.video-card {
+  width: 300px;
   margin: 10px;
+  position: relative;
 }
 
-.video-wrapper video {
+video {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
 }
 
-.play-pause-btn {
+.play-button {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: transparent;
-  border: none;
-  color: #000;
-  font-size: 1.5em;
   cursor: pointer;
+  font-size: 24px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.scroll-down-link {
-  display: block;
-  color: #000;
-  font-size: 1.2em;
-  margin-top: 20px;
-  cursor: pointer;
+.playing {
+  filter: grayscale(0%);
 }
