@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 import HeroSection from './components/Hero';
 import BannerSection from './components/Banner';
 import VideoSection from './components/Video'
-import AboutSection from './components/AbousUs'
+import AboutSection from './components/AboutUs'
 
 function App() {
   return (
