@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay, faPause } from '@fortawesome/free-solid-svg-icons';
 
@@ -7,7 +7,6 @@ import video2 from '../assets/imgs/FI9.MOV';
 
 const VideoSection = () => {
   const [isPlaying, setPlaying] = useState(Array(6).fill(false));
-  const videoRefs = Array(6).fill(null).map(() => useRef(null));
 
   const videoUrls = [video1, video1, video1, video2, video2, video2];
 
@@ -16,10 +15,17 @@ const VideoSection = () => {
     updatedPlaying[index] = !updatedPlaying[index];
     setPlaying(updatedPlaying);
 
-    if (updatedPlaying[index]) {
-      videoRefs[index].current.play();
-    } else {
-      videoRefs[index].current.pause();
+    const videos = document.getElementsByTagName('video');
+    for (let i = 0; i < videos.length; i++) {
+      if (i === index) {
+        if (updatedPlaying[index]) {
+          videos[i].play();
+        } else {
+          videos[i].pause();
+        }
+      } else {
+        videos[i].pause();
+      }
     }
   };
 
@@ -30,7 +36,6 @@ const VideoSection = () => {
         {[...Array(6)].map((_, index) => (
           <div key={index} className="video-card">
             <video
-              ref={videoRefs[index]}
               src={videoUrls[index]}
               controls={false}
               autoPlay={false}
