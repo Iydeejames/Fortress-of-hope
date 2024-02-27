@@ -1,82 +1,41 @@
-
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-scroll';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay, faPause } from '@fortawesome/free-solid-svg-icons';
 
+import video1 from './assets/imgs/FI8.MOV';
+import video2 from './assets/imgs/FI9.MOV';
 
 const VideoSection = () => {
-    const [videoRefs, setVideoRefs] = useState(Array(6).fill(null));
-    const [isPlaying, setIsPlaying] = useState(Array(6).fill(false));
-  
-    const handlePlayPause = (index) => {
-      const updatedPlayingState = [...isPlaying];
-      updatedPlayingState[index] = !updatedPlayingState[index];
-      setIsPlaying(updatedPlayingState);
-  
-      const video = videoRefs[index];
-      if (video) {
-        if (updatedPlayingState[index]) {
-          video.play();
-        } else {
-          video.pause();
-        }
-      }
-    };
-  
-    const handleScroll = () => {
-      // Check if the video section is in the viewport
-      const section = document.getElementById('video-section');
-      const rect = section.getBoundingClientRect();
-      const isVisible = rect.top <= window.innerHeight && rect.bottom >= 0;
-  
-      // Check if videoRefs are initialized
-      if (videoRefs.some((ref) => ref === null)) {
-        return;
-      }
-  
-      // Add your desired transition effect here (e.g., fade in or slide in)
-      // This example uses opacity as a simple fade-in effect
-      if (isVisible) {
-        videoRefs.forEach((ref) => {
-          ref.style.transition = 'opacity 1s ease-in-out';
-          ref.style.opacity = '1';
-        });
-      }
-    };
-  
-    useEffect(() => {
-      // Set up videoRefs array with references to video elements
-      setVideoRefs(videoRefs.map((_, index) => document.getElementById(`video-${index}`)));
-  
-      window.addEventListener('scroll', handleScroll);
-      return () => {
-        window.removeEventListener('scroll', handleScroll);
-      };
-    }, [videoRefs]); // Add videoRefs as a dependency to the useEffect
-  
-    return (
-      <div id="video-section" className="video-section">
-        <h1 className="video-section-heading">Fortress TV</h1>
-        <div className="videos-container">
-          {videoRefs.map((videoRef, index) => (
-            <div key={index} className="video-wrapper" id={`video-${index}`}>
-              <video
-                src={`imgs/FI8${index % 2 + 8}.MOV`} // Adjust the path to match your file structure
-                controls={false}
-                loop
-                muted
-                autoPlay={isPlaying[index]}
-                playsInline
-              ></video>
-              <button className="play-pause-btn" onClick={() => handlePlayPause(index)}>
-                <FontAwesomeIcon icon={isPlaying[index] ? faPause : faPlay} />
-              </button>
-            </div>
-          ))}
-        </div>
-      </div>
-    );
+  const [isPlaying, setPlaying] = useState(false);
+
+  const videoUrls = [video1, video1, video1, video2, video2, video2];
+
+  const handleTogglePlay = () => {
+    setPlaying(!isPlaying);
   };
-  
-  export default VideoSection;
+
+  return (
+    <div className="video-section">
+      <h2>Fortress TV</h2>
+      <div className="video-container">
+        {[...Array(6)].map((_, index) => (
+          <div key={index} className="video-card">
+            <video
+              src={videoUrls[index]}
+              controls={false}
+              autoPlay={false}
+              loop={true}
+              muted={true}
+              className={isPlaying ? 'playing' : ''}
+            />
+            <div className="play-button" onClick={handleTogglePlay}>
+              <FontAwesomeIcon icon={isPlaying ? faPause : faPlay} />
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default VideoSection;
