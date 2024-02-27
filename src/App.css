@@ -250,6 +250,14 @@ body {
   margin-top: 20px;
 }
 
+.video-section h2{
+  font-size: 3rem;
+  color: #ccc;
+  font-family: cursive;
+  margin-bottom: 1.5rem;
+  margin-top: -3rem;
+}
+
 .video-container {
   display: flex;
   flex-wrap: wrap;
