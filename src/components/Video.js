@@ -62,7 +62,7 @@ const VideoSection = () => {
           {videoRefs.map((videoRef, index) => (
             <div key={index} className="video-wrapper" id={`video-${index}`}>
               <video
-                src={`imgs/FI${index % 2 + 8}.MOV`} // Adjust the path to match your file structure
+                src={`imgs/FI8${index % 2 + 8}.MOV`} // Adjust the path to match your file structure
                 controls={false}
                 loop
                 muted
