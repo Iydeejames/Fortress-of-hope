@@ -302,28 +302,42 @@ video {
 
 .about-section-container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
+  text-align: center;
+}
+
+.about-section-left {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.about-section-left h2 {
+  margin-top: 0;
 }
 
 .about-section-left img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
 .about-section-right {
-  flex-grow: 1;
-  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-card {
   background-color: seagreen;
   padding: 20px;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .small-cards {
   cursor: pointer;
+  width: 100%;
 }
 
 .small-cards img {
