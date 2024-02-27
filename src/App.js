@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import HeroSection from './components/Hero';
 import BannerSection from './components/Banner';
 import VideoSection from './components/Video'
+import AboutSection from './components/AbousUs'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       < HeroSection/>
       < BannerSection/>
       < VideoSection/>
+      < AboutSection/>
     </div>
 
   );
