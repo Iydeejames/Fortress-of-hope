@@ -297,3 +297,37 @@ video {
 .playing {
   filter: grayscale(0%);
 }
+
+/* AboutSection.css */
+
+.about-section-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-section-left img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-section-right {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.main-card {
+  background-color: seagreen;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.small-cards {
+  cursor: pointer;
+}
+
+.small-cards img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
