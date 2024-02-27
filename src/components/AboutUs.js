@@ -1,4 +1,5 @@
 import React from 'react';
+import FI2 from "../assets/imgs/FI2.PNG";
 
 const AboutSection = () => {
   // Function to handle click on the smaller cards
@@ -10,7 +11,7 @@ const AboutSection = () => {
   return (
     <div className="about-section-container">
       <div className="about-section-left">
-        <img src="/path/to/your/image.jpg" alt="About" />
+        <img src="FI2" alt="About" />
       </div>
       <div className="about-section-right">
         <div className="main-card">
