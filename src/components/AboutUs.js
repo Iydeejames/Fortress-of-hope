@@ -5,12 +5,6 @@ import FI5 from "../assets/imgs/FI5.JPG";
 
 
 const AboutSection = () => {
-    // Function to handle click on the smaller cards
-    const handleCardClick = (cardId) => {
-      // Logic to open another page or perform any other action
-      console.log(`Card ${cardId} clicked`);
-    };
-  
     return (
       <div className="about-section-container">
         <div className="about-section-left">
@@ -21,10 +15,10 @@ const AboutSection = () => {
           <div className="main-card">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla...</p>
           </div>
-          <div className="small-cards" onClick={() => handleCardClick(1)}>
+          <div className="small-cards">
             <img src="/src/assets/imgs/FI3.jpg" alt="Card 1" />
           </div>
-          <div className="small-cards" onClick={() => handleCardClick(2)}>
+          <div className="small-cards">
             <img src="/src/assets/imgs/FI5.jpg" alt="Card 2" />
           </div>
         </div>
