@@ -5,16 +5,14 @@ import FI2 from "../assets/imgs/FI2.PNG";
 const AboutSection = () => {
     return (
       <div className="about-section-container">
-        <div className="about-section-heading">
-        <h2>Rev. Prince Amba</h2>
-        </div>
 
           <div className="about-section-left">
           <img src={FI2} alt="About" />
         </div>
         <div className="about-section-right">
           <div className="main-card">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+            <p> <b>Rev. Prince Amba</b> <br></br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
