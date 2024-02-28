@@ -316,6 +316,7 @@ video {
   color: rgb(17, 49, 49);
   margin-top: 5rem;
   margin-left: 2%;
+  writing-mode: vertical-rl; /* Make the text lie vertically */
 }
 
 .about-section-left img {
