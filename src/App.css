@@ -331,8 +331,11 @@ video {
 }
 
 .small-cards img {
-  max-width: 100%;
+  max-width: 40%;
   height: auto;
   margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
