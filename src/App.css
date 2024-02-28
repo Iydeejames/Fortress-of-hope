@@ -300,52 +300,54 @@ video {
 /* AboutSection.css */
 
 .about-section-container {
+  background-color: rgba(29, 194, 194, 0.103);
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Align items vertically at the center */
-  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+  align-items: flex-start;
 }
 
 .about-section-left {
-  flex-basis: 50%;
-  order: 2; /* Move the left section to the right in the flex container */
+  flex-basis: 35%;
 }
 
-.about-section-container h2 {
-  font-size: 3rem;
-  color: #aaa;
+.about-section-heading {
+  font-size: 2rem;
+  color: rgb(17, 49, 49);
   font-family: cursive;
-  margin-bottom: 1.5rem;
-  margin-top: -1rem;
-  text-align: center; /* Center the heading */
+  margin-top: 5rem;
+  margin-left: 2%;
 }
 
 .about-section-left img {
   max-width: 100%;
-  height: auto;
+  height: 73vh;
+  margin-top: 5rem;
 }
 
 .about-section-right {
   flex-basis: 50%;
   padding: 20px;
-  display: flex;
-  flex-direction: column;
+  margin-top: 5rem;
 }
 
 .main-card {
-  background-color: seagreen;
+  background: linear-gradient(to right, rgb(17, 49, 49), rgb(29, 194, 194), rgb(29, 194, 194), rgb(29, 194, 194),rgb(29, 194, 194),rgb(29, 194, 194),rgb(29, 194, 194), rgb(29, 194, 194), rgb(29, 194, 194), rgb(29, 194, 194), rgb(29, 194, 194), rgb(29, 194, 194),rgb(29, 194, 194), rgb(29, 194, 194), rgb(29, 194, 194), rgb(17, 49, 49));
+  width: 40vw;
+  height: auto;
   padding: 20px;
   margin-bottom: 20px;
-  height: 45vh; /* Set the height of the text card */
+  border-radius: 4rem;
 }
 
-.small-cards {
-  display: flex;
-  margin-bottom: 10px; /* Add some spacing between the text card and small cards */
+.main-card p{
+  line-height: 2.5rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  letter-spacing: 0.06em;
 }
 
 .small-cards img {
-  max-width: 50%; /* Adjust the width as needed */
+  width: 20rem;
   height: auto;
-  margin-right: 10px; /* Add some spacing between the images */
+  margin-bottom: 10px;
 }
