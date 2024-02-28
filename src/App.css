@@ -120,7 +120,6 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
- 
     z-index: 2;
   }
   
@@ -133,7 +132,7 @@ body {
   }
 
 .slide.active {
-  opacity: 0.4;
+  opacity: 0.6;
 }
 
 .hero-image {
@@ -303,15 +302,19 @@ video {
 .about-section-container {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center; /* Align items vertically at the center */
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
 }
 
 .about-section-left {
   flex-basis: 50%;
+  order: 2; /* Move the left section to the right in the flex container */
 }
 
 .about-section-left h2 {
+  margin-top: 0; /* Remove default margin for h2 */
   margin-bottom: 20px;
+  text-align: center; /* Center the heading */
 }
 
 .about-section-left img {
@@ -330,10 +333,12 @@ video {
   background-color: seagreen;
   padding: 20px;
   margin-bottom: 20px;
+  height: 15vh; /* Set the height of the text card */
 }
 
 .small-cards {
   display: flex;
+  margin-bottom: 10px; /* Add some spacing between the text card and small cards */
 }
 
 .small-cards img {
