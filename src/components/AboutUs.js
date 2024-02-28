@@ -1,4 +1,5 @@
 import React from 'react';
+import React, { useEffect, useState } from 'react';
 import FI2 from "../assets/imgs/FI2.PNG";
 
 
