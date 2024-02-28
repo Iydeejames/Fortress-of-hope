@@ -311,9 +311,12 @@ video {
   order: 2; /* Move the left section to the right in the flex container */
 }
 
-.about-section-left h2 {
-  margin-top: 0; /* Remove default margin for h2 */
-  margin-bottom: 20px;
+.about-section-container h2 {
+  font-size: 3rem;
+  color: #aaa;
+  font-family: cursive;
+  margin-bottom: 1.5rem;
+  margin-top: -1rem;
   text-align: center; /* Center the heading */
 }
 
@@ -333,7 +336,7 @@ video {
   background-color: seagreen;
   padding: 20px;
   margin-bottom: 20px;
-  height: 15vh; /* Set the height of the text card */
+  height: 45vh; /* Set the height of the text card */
 }
 
 .small-cards {

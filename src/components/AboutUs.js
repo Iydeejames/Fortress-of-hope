@@ -8,8 +8,9 @@ import FI5 from "../assets/imgs/FI5.JPG";
 const AboutSection = () => {
     return (
       <div className="about-section-container">
+                  <h2>About Us</h2>
         <div className="about-section-left">
-          <h2>About Us</h2>
+
           <img src={FI2} alt="About" />
         </div>
         <div className="about-section-right">
