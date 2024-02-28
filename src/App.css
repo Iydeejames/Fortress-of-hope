@@ -300,26 +300,34 @@ video {
 /* AboutSection.css */
 
 .about-section-container {
-  background-color: rgba(29, 194, 194, 0.103);
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 3rem; /* Add space of 3rem on both ends */
+  padding: 4rem 8rem; 
+  clip-path: polygon(
+    0% 10%,
+    10% 0%,
+    90% 0%,
+    100% 10%,
+    100% 100%,
+    0% 100%
+  );
 }
 
 .about-section-left {
-  flex-basis: 35%;
+  flex-basis: 60%;
 }
 
 .image-card {
-  background: rgba(255, 255, 255, 0.8); /* Transparent card background */
+  background: rgba(29, 194, 194, 0);
   padding: 20px;
   border-radius: 4rem;
 }
 
 .about-section-left img {
   max-width: 100%;
-  height: 73vh;
+  height: 77vh;
 }
 
 .about-section-right {
