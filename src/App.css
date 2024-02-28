@@ -311,11 +311,12 @@ video {
 }
 
 .about-section-heading {
-  font-family: cursive;
-  font-size: 2rem;
-  color: rgb(17, 49, 49);
-
+  font-style: italic;
+  font-size: 3rem;
+  color: rgba(17, 49, 49, 0.644);
+  white-space: nowrap;
   transform: rotate(-90deg); /* Rotate the text */
+  margin-left: -13%;
 
 }
 
