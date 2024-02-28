@@ -303,11 +303,18 @@ video {
   background-color: rgba(29, 194, 194, 0.103);
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Center items vertically */
+  align-items: center;
+  padding: 0 3rem; /* Add space of 3rem on both ends */
 }
 
 .about-section-left {
   flex-basis: 35%;
+}
+
+.image-card {
+  background: rgba(255, 255, 255, 0.8); /* Transparent card background */
+  padding: 20px;
+  border-radius: 4rem;
 }
 
 .about-section-left img {
@@ -319,7 +326,6 @@ video {
   flex-basis: 50%;
   padding: 20px;
 }
-
 .main-card {
   background: linear-gradient(to right, rgb(17, 49, 49), rgb(29, 194, 194), rgb(29, 194, 194), rgb(29, 194, 194),rgb(29, 194, 194),rgb(29, 194, 194),rgb(29, 194, 194), rgb(29, 194, 194), rgb(29, 194, 194), rgb(29, 194, 194), rgb(29, 194, 194), rgb(29, 194, 194),rgb(29, 194, 194), rgb(29, 194, 194), rgb(29, 194, 194), rgb(17, 49, 49));
   width: 40vw;
@@ -329,19 +335,9 @@ video {
   border-radius: 4rem;
 }
 
-.main-card p{
+.main-card p {
   line-height: 2.5rem;
   margin-top: 4rem;
   margin-bottom: 4rem;
   letter-spacing: 0.06em;
-}
-
-.small-cards {
-  display: flex;
-}
-
-.small-cards img {
-  max-width: 50%; /* Adjust the width as needed */
-  height: auto;
-  margin-right: 10px; /* Add some spacing between the images */
 }
