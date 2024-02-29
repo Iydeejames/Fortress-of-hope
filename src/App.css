@@ -310,7 +310,7 @@ video {
   flex-basis: 60%;
 }
 .image-card {
-  background: rgba(29, 194, 194, 0);
+  background: rgba(0, 0, 0, 0.938);
   padding: 20px;
   border-radius: 4rem;
 }
@@ -350,7 +350,7 @@ video {
   height: auto;
   padding: 20px;
   margin-bottom: 20px;
-  border-radius: 4rem;
+  border-radius: 0rem;
 }
 
 .main-card p {
