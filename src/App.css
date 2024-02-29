@@ -312,13 +312,13 @@ video {
 .image-card {
   background: rgba(0, 0, 0, 0.938);
   padding: 20px;
-  border-radius: 4rem;
+  border-radius: 0rem;
 }
 
 
 .about-section-left img {
   max-width: 100%;
-  height: 77vh;
+  height: 75vh;
 }
 
 .about-section-right {
