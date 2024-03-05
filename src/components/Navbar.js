@@ -17,6 +17,7 @@ const Navbar = () => {
         };
     }, []);
 
+    
     const toggleMenu = () => {
         MenuOpen (!MenuOpen)
     };

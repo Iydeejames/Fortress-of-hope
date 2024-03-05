@@ -310,7 +310,7 @@ video {
   flex-basis: 60%;
 }
 .image-card {
-  background: linear-gradient(rgba(0, 0, 0, 0.938), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.938));
+  background: linear-gradient(rgba(0, 0, 0, 0.938), rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.938));
   padding: 20px;
   border-radius: 0rem;
 }
