@@ -246,7 +246,7 @@ body {
 /* VideoSection.css */
 
 .video-section {
-  height: 80vh;
+  height: 85vh;
   text-align: center;
   margin-top: 20px;
 }
@@ -256,7 +256,7 @@ body {
   color: #aaa;
   font-family: 'Times New Roman', Times, serif;
   margin-bottom: 1.5rem;
-  margin-top: -1rem;
+  margin-top: 3rem;
 }
 
 .video-container {
