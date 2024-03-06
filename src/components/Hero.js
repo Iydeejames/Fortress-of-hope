@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react";
-import FI3 from "../assets/imgs/FI3.JPG";
-import FI4 from "../assets/imgs/FI4.JPG";
-import FI5 from "../assets/imgs/FI5.JPG";
+import FI10 from "../assets/imgs/FI10.jpg";
+//import FI3 from "../assets/imgs/FI3.JPG";
+//import FI4 from "../assets/imgs/FI4.JPG";
+//import FI5 from "../assets/imgs/FI5.JPG";
 
 const HeroSection = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
-    const images = [FI3, FI4, FI5];
+    const images = [FI10];
+    //const images = [FI3, FI4, FI5];
   
     useEffect(() => {
       const interval = setInterval(() => {
