@@ -298,3 +298,34 @@ video {
 }
 
 /* AboutSection.css   background: linear-gradient(rgba(0, 0, 0, 0.938), rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.938));  */
+
+/* AboutSection.css */
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.about-card {
+  background: linear-gradient(rgba(0, 0, 0, 0.938), rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.938));
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 900px;
+  margin-top: -2rem;
+}
+
+.about-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #222; /* Set heading color to black */
+}
+
+.about-text {
+  font-size: 16px;
+  color: #333; /* Set text color to a slightly lighter shade of black */
+  margin-bottom: 15px;
+}
