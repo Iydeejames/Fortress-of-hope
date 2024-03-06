@@ -102,7 +102,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-  height: 80vh;
+  height: 85vh;
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.911));
 }
@@ -155,12 +155,12 @@ body {
 .hero-text h1 {
   font-size: 5.5rem;
   margin-top: 2rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /* BannerSection */
 .custom-banner-section {
-  height: 65vh;
+  height: 75vh;
   position: relative;
   width: auto;
   max-width: 600px; 
@@ -209,8 +209,9 @@ body {
   display: flex;
   font-size: 2.5rem;
   color: #aaa;
-  font-family: cursive;
+  font-family: 'Times New Roman', Times, serif;
   margin-bottom: 1.6rem;
+  margin-top: 4rem;
 }
 
 /* .custom-slide button {
@@ -253,7 +254,7 @@ body {
 .video-section h2{
   font-size: 3rem;
   color: #aaa;
-  font-family: cursive;
+  font-family: 'Times New Roman', Times, serif;
   margin-bottom: 1.5rem;
   margin-top: -1rem;
 }
