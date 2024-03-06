@@ -249,13 +249,15 @@ body {
   height: 75vh;
   text-align: center;
   margin-top: 20px;
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 .video-section h2{
   font-size: 3rem;
   color: #aaa;
   font-family: 'Times New Roman', Times, serif;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.7rem;
   margin-top: 3rem;
 }
 
@@ -297,8 +299,6 @@ video {
   filter: grayscale(0%);
 }
 
-/* AboutSection.css   background: linear-gradient(rgba(0, 0, 0, 0.938), rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.938));  */
-
 /* AboutSection.css */
 
 .about-section {
@@ -314,7 +314,7 @@ video {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  max-width: 1200px;
+  max-width: 1000px;
   margin-top: -4rem;
 }
 
@@ -327,6 +327,7 @@ video {
 
 .about-text {
   font-size: 16px;
-  color: #333; /* Set text color to a slightly lighter shade of black */
+  color: #333; 
   margin-bottom: 15px;
+  line-height: 1.7rem;
 }
