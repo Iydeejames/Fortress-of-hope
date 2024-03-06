@@ -8,8 +8,6 @@ const AboutSection = () => {
         <h2 className="about-heading">About Us</h2>
         <p className="about-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.
-        </p>
-        <p className="about-text">
           Praesent ullamcorper risus a elit. Pellentesque venenatis, ligula sit amet malesuada suscipit, purus elit ultrices nulla, non semper arcu lectus sit amet nunc.
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
