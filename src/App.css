@@ -102,7 +102,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-  height: 95vh;
+  height: 100vh;
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.911));
 }
@@ -160,7 +160,7 @@ body {
 
 /* BannerSection */
 .custom-banner-section {
-  height: 75vh;
+  height: 70vh;
   position: relative;
   width: auto;
   max-width: 600px; 
@@ -171,7 +171,7 @@ body {
 .custom-slideshow {
   display: flex;
   flex-direction: column;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .custom-slide {
