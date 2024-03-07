@@ -20,8 +20,9 @@ import React, { useState, useEffect } from 'react';
   
     return (
       <div className="banner-section">
+        <div className='banner-heading'>From Our Pastor's Desk</div>
         <div className="banner-card">
-          <h2>FROM OUR PASTOR'S DESK</h2>
+          
           <p>{loremIpsumTexts[textIndex]}</p>
         </div>
       </div>

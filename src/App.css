@@ -159,55 +159,46 @@ body {
   font-family: 'Times New Roman', Times, serif;
 }
 
-/* BannerSection */
-.custom-banner-section {
+/* BannerSection.css */
 
-  height: 70vh;
+.banner-section {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
   padding-left: 4rem;
   padding-right: 4rem;
 }
 
-.custom-slideshow {
-  display: flex;
-  flex-direction: column;
-  margin-top: 2rem;
-  height: auto;
-}
-
-.custom-slide {
-  transition: opacity 1s ease-in-out;
-  width: auto;
-  opacity: 0;
-  position: absolute;
-}
-
-.custom-slide p {
-  height: 40vh;
-  background: linear-gradient(rgba(29, 194, 194, 0.938), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(29, 194, 194, 0.938));
-  color: #333;
+.banner-card {
   padding: 20px;
-  border-radius: 2rem;
-
+  background: linear-gradient(
+    rgba(29, 194, 194, 0.938),
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0),
+    rgba(29, 194, 194, 0.938)
+  );
 }
 
-.custom-slide.custom-active {
-  opacity: 1;
-}
-
-.custom-card p {
-  padding-top: 3em;
-  line-height: 1.5rem;
-}
-
-.custom-card  h2{
-  display: flex;
-  font-size: 2.5rem;
+.banner-heading{
+  font-size: 3rem;
+  font-weight: bold;
   color: #aaa;
   font-family: 'Times New Roman', Times, serif;
-  margin-bottom: 1.6rem;
-  margin-top: 4rem;
+  margin-bottom: 1.7rem;
+  margin-top: 5rem;
 }
 
+.banner-card p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.9rem;
+}
 
 /* .custom-slide button {
   position: absolute;
@@ -253,7 +244,7 @@ body {
   color: #aaa;
   font-family: 'Times New Roman', Times, serif;
   margin-bottom: 1.7rem;
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 
 .video-container {
