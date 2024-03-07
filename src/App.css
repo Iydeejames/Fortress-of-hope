@@ -161,9 +161,7 @@ body {
 
 /* BannerSection */
 .custom-banner-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   height: 70vh;
   padding-left: 4rem;
   padding-right: 4rem;
