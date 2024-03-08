@@ -3,8 +3,8 @@ import './App.css';
 import Navbar from './components/Navbar'
 import HeroSection from './components/Hero';
 import BannerSection from './components/Banner';
-import VideoSection from './components/Video'
-import AboutSection from './components/AboutUs'
+import VideoSection from './components/Video';
+import AboutSection from './components/AboutUs';
 import PhotoSection from './components/Photo'
 
 function App() {
