@@ -296,30 +296,36 @@ video {
 .photo-section-container {
   background-color: rgba(29, 194, 194, 0.308);
   margin-top: 4rem;
+  position: relative; /* Add this to establish stacking context */
 }
 
-.floating-bg{
+.floating-bg {
   width: 70vw;
   background-color: rgba(29, 194, 194, 0.308);
   position: absolute;
   left: calc(50% - 76vw);
   border-radius: 48%;
   animation: rotate 10s infinite;
+  z-index: 1; /* Set a higher z-index */
 }
 
-.floating-bg::before{
+.floating-bg::before,
+.floating-bg::after {
   content: "";
   width: 90%;
   height: 90%;
-  background-color: rgba(29, 194, 194, 0.575);
   position: absolute;
   top: 0;
-  left: 60%;
   border-radius: 43%;
   animation: rotate 30s infinite;
 }
 
-.floating-bg::after{
+.floating-bg::before {
+  left: 60%;
+  background-color: rgba(29, 194, 194, 0.575);
+}
+
+.floating-bg::after {
   content: "";
   width: 90%;
   height: 90%;
@@ -329,6 +335,7 @@ video {
   left: 125%;
   border-radius: 43%;
   animation: rotate 30s infinite;
+  z-index: 0; /* Set a lower z-index */
 }
 
 .photo-section {
@@ -341,8 +348,10 @@ video {
   margin-bottom: 6rem;
   max-width: 100%;
   height: 33vh;
-  margin-right: 2px; 
+  margin-right: 2px;
   border-radius: 2rem;
+  position: relative; /* Ensure images are positioned */
+  z-index: 2; /* Set a higher z-index than floating-bg */
 }
 
 @keyframes slideAnimation {
@@ -353,7 +362,6 @@ video {
     transform: translateX(-80%);
   }
 }
-
 /*
 .floating-bg{
   width: 150vw;
