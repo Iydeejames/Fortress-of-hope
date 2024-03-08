@@ -299,8 +299,8 @@ video {
 
 .floating-bg{
   width: 150vw;
-  height: 30vw;
-  background-color: rgba(29, 194, 194, 0.534);
+
+  background-color: rgba(29, 194, 194, 0.377);
   position: absolute;
   left: calc(28% - 55vw);
   border-radius: 45%;
