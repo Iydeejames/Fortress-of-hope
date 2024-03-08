@@ -13,12 +13,11 @@ const images = [image1, image2, image3, image4, image5, image6, image8];
 const PhotoSection = () => {
     return (
       <div className="photo-section-container">
-        <div className="wavy-background">
-          <div className="photo-section">
-            {images.map((image, index) => (
-              <img key={index} src={image} alt={`image-${index + 1}`} />
-            ))}
-          </div>
+        <div className="wavy-background"></div>
+        <div className="photo-section">
+          {images.map((image, index) => (
+            <img key={index} src={image} alt={`image-${index + 1}`} />
+          ))}
         </div>
       </div>
     );
