@@ -296,7 +296,7 @@ video {
 .photo-section {
   background-color: rgb(29, 194, 194);
   display: flex;
-  overflow: hidden;
+
   animation: slideAnimation 20s linear infinite;
   height: auto;
 }
