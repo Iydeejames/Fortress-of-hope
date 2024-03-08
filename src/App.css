@@ -170,6 +170,7 @@ body {
 }
 
 .banner-card {
+  margin-top: 4.5rem;
   padding: 20px;
   background: linear-gradient(
     rgba(29, 194, 194, 0.938),
