@@ -264,8 +264,8 @@ video {
   justify-content: center;
   align-items: center;
   height: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .about-card {
