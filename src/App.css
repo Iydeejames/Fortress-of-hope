@@ -297,6 +297,28 @@ video {
   background-color: rgba(29, 194, 194, 0.308);
 }
 
+.floating-bg{
+  width: 150vw;
+  height: 30vw;
+  background-color: rgba(29, 194, 194, 0.534);
+  position: absolute;
+  left: calc(28% - 55vw);
+  border-radius: 45%;
+  animation: rotate 30s infinite;
+}
+
+.floating-bg::before{
+  content: "";
+  width: 100%;
+  height: 102%;
+  background-color: rgba(29, 194, 194, 0.336);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 40%;
+  animation: rotate 30s infinite;
+}
+
 .photo-section {
   display: flex;
   animation: slideAnimation 35s linear infinite;
