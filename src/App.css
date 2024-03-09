@@ -331,10 +331,9 @@ video {
   border-radius: 43%;
   animation: rotate 10s infinite;
 } */
-
 .photo-section {
   display: flex;
-  animation: slideAnimation 35s linear infinite;
+  animation: slideAnimation 10s linear infinite; /* Adjust the duration based on the number of images */
 }
 
 .photo-section img {
@@ -343,7 +342,6 @@ video {
   max-width: 100%;
   height: 20vh;
   margin-right: -1px; 
-
 }
 
 @keyframes slideAnimation {
@@ -351,10 +349,9 @@ video {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-60%);
+    transform: translateX(-100%); 
   }
 }
-
 /*
 .floating-bg{
   width: 150vw;
