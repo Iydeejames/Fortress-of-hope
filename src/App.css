@@ -301,23 +301,25 @@ video {
   width: 70vw;
   background-color: rgba(29, 194, 194, 0.178);
   position: absolute;
-  left: calc(50% - 76vw);
+  left: -2%;
   border-radius: 48%;
   animation: rotate 10s infinite;
+  padding: 2em;
 }
 
 .floating-bg::before{
   content: "";
-  width: 90%;
-  height: 90%;
+  width: 95%;
+  height: 100%;
   background-color: rgba(29, 194, 194, 0.178);
   position: absolute;
   top: 0;
-  left: 60%;
-  border-radius: 43%;
+  left: 49%;
+  border-radius: 50%;
   animation: rotate 10s infinite;
 }
 
+/*
 .floating-bg::after{
   content: "";
   width: 90%;
@@ -325,10 +327,10 @@ video {
   background-color: rgba(29, 194, 194, 0.178);
   position: absolute;
   top: 0;
-  left: 125%;
+  left: 145%;
   border-radius: 43%;
   animation: rotate 10s infinite;
-}
+} */
 
 .photo-section {
   display: flex;
@@ -337,11 +339,11 @@ video {
 
 .photo-section img {
   margin-top: 4rem;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
   max-width: 100%;
-  height: 30vh;
+  height: 20vh;
   margin-right: -1px; 
-  border-radius: 9rem;
+
 }
 
 @keyframes slideAnimation {
