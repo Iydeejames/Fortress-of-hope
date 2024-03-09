@@ -333,7 +333,7 @@ video {
 } */
 .photo-section {
   display: flex;
-  animation: slideAnimation 10s linear infinite; /* Adjust the duration based on the number of images */
+  animation: slideAnimation 15s linear infinite;
 }
 
 .photo-section img {
