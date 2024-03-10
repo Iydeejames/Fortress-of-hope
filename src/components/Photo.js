@@ -26,5 +26,4 @@ const PhotoSection = () => {
     </div>
   );
 };
-
 export default PhotoSection;
