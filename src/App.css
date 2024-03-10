@@ -342,6 +342,7 @@ video {
   max-width: 100%;
   height: 20vh;
   margin-right: -1px; 
+  border-radius: 2rem;
 }
 
 @keyframes slideAnimation {
