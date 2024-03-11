@@ -320,18 +320,6 @@ video {
   animation: rotate 10s infinite;
 }
 
-/*
-.floating-bg::after{
-  content: "";
-  width: 90%;
-  height: 90%;
-  background-color: rgba(29, 194, 194, 0.178);
-  position: absolute;
-  top: 0;
-  left: 145%;
-  border-radius: 43%;
-  animation: rotate 10s infinite;
-} */
 .photo-section {
   display: flex;
   animation: slideAnimation 15s linear infinite;
