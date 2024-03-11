@@ -12,7 +12,7 @@ const images = [image1, image2, image3, image4, image5, image6, image8];
 
 const PhotoSection = () => {
   // Duplicate the images to create a seamless loop
-  const duplicatedImages = [...images, ...images];
+  const duplicatedImages = [...images,  ...images];
 
   return (
     <div className="photo-section-container">

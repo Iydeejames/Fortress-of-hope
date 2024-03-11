@@ -331,7 +331,9 @@ video {
   max-width: 100%;
   height: 20vh;
   margin-right: -1px; 
-  border-radius: 2rem;
+  border-radius: 2.5rem;
+  /*margin-top: 3rem;
+  margin-bottom: 3rem; */
 } 
 
 
