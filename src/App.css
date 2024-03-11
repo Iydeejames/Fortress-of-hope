@@ -329,7 +329,8 @@ video {
   padding-top: 4rem;
   padding-bottom: 4rem;
   max-width: 100%;
-  height: auto;
+  height: 20vh;
+  margin-right: -1px; 
   border-radius: 2rem;
 }
 
