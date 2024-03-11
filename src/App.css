@@ -326,11 +326,10 @@ video {
 }
 
 .photo-section img {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   max-width: 100%;
-  height: 20vh;
-  margin-right: -1px; 
+  height: auto;
   border-radius: 2rem;
 }
 
