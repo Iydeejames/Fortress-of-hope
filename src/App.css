@@ -326,13 +326,14 @@ video {
 }
 
 .photo-section img {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   max-width: 100%;
   height: 20vh;
   margin-right: -1px; 
   border-radius: 2rem;
-}
+} 
+
 
 @keyframes slideAnimation {
   0% {
