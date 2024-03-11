@@ -295,6 +295,7 @@ video {
 /* PhotoSection.css */
 .photo-section-container {
   margin-top: 4rem;
+  width: 100%;
 }
 
 .floating-bg{
