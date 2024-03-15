@@ -213,7 +213,7 @@ body {
 
 .video-section h2 {
   font-size: 3rem;
-  color: rgba(255, 255, 102, 1);
+  color: #aaa;
   font-family: 'Times New Roman', Times, serif;
   margin-bottom: 1.7rem;
   margin-top: 5rem;
@@ -340,7 +340,7 @@ video {
 
 .floating-bg{
   width: 70vw;
-  background-color: rgba(29, 194, 194, 0.178);
+  background-color: #aaaaaa2c;
   position: absolute;
   left: -2%;
   border-radius: 48%;
@@ -352,7 +352,7 @@ video {
   content: "";
   width: 95%;
   height: 100%;
-  background-color: rgba(29, 194, 194, 0.178);
+  background-color: #aaaaaa2c;
   position: absolute;
   top: 0;
   left: 49%;
