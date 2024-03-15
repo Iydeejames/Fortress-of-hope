@@ -9,6 +9,7 @@ const VideoSection = () => {
   const [isPlaying, setPlaying] = useState(Array(6).fill(false));
 
   const videoUrls = [video1, video1, video1, video2, video2, video2];
+  const videoTitles = ['Video 1 Title', 'Video 2 Title', 'Video 3 Title', 'Video 4 Title', 'Video 5 Title', 'Video 6 Title'];
 
   const handleTogglePlay = (index) => {
     const updatedPlaying = [...isPlaying];
@@ -50,7 +51,7 @@ const VideoSection = () => {
             </div>
             <div className="video-info">
               <h3>
-                <a href="#">Video Title</a>
+                <a href="#">{videoTitles[index]}</a>
               </h3>
             </div>
           </div>
