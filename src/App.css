@@ -223,7 +223,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: #f5bf42;
  /* background-color: rgba(29, 194, 194, 0.178); */
   padding-left: 2rem;
   padding-right: 2rem;
