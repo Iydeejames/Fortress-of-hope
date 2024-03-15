@@ -9,7 +9,8 @@ const VideoSection = () => {
   const [isPlaying, setPlaying] = useState(Array(6).fill(false));
 
   const videoUrls = [video1, video1, video1, video2, video2, video2];
-  const videoTitles = ['Video 1 Title', 'Video 2 Title', 'Video 3 Title', 'Video 4 Title', 'Video 5 Title', 'Video 6 Title'];
+  const videoTitles = ['The benefits of Thanksgiving', 'Hope that does not disappoint', 'Faith Works', 
+  'The broken scarlet pt 1', 'The broken scarlet pt 2', 'The Throne of Grace'];
 
   const handleTogglePlay = (index) => {
     const updatedPlaying = [...isPlaying];

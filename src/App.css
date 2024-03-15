@@ -229,7 +229,7 @@ body {
 
 .video-card {
   width: 290px; 
-  height: 230px; 
+  height: 220px; 
   margin: 6px;
   position: relative;
   margin-top: 1.5rem;
@@ -276,9 +276,11 @@ video {
 
 .video-info h3 a {
   color: #333;
-  text-decoration: none;
-  font-weight: 100;
+  font-weight: 800;
   font-family: 'Times New Roman', Times, serif;
+  line-height: 3rem;
+  font-style: italic;
+  text-decoration: none;
 }
 
 .playing {
