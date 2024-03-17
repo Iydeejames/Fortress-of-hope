@@ -12,10 +12,7 @@ const AboutSection = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla...
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla 
+
         </p>
       </div>
     </div>

@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-import FI14 from "../assets/imgs/FI14.jpg";
-//import FI3 from "../assets/imgs/FI3.JPG";
+//import FI14 from "../assets/imgs/FI14.jpg";
+import FI3 from "../assets/imgs/FI3.JPG";
 //import FI4 from "../assets/imgs/FI4.JPG";
 //import FI5 from "../assets/imgs/FI5.JPG";
 
 const HeroSection = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
-    const images = [FI14];
+    const images = [FI3];
     //const images = [FI3, FI4, FI5];
   
     useEffect(() => {
@@ -18,7 +18,7 @@ const HeroSection = () => {
     }, [currentIndex, images.length]);
   
     return (
-      <div id="home" className="hero-section"> {/* id="home" here */}
+      <div id="home" className="hero-section"> 
         <div className="slideshow-container">
           {images.map((image, index) => (
             <div
