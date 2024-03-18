@@ -235,7 +235,8 @@ body {
   background-color: rgba(77, 69, 69, 0.13);
   position: absolute;
   margin-top: 1.5rem;
-  left: 30%;
+  left: 30%; /* Center the background horizontally */
+  transform: translateX(-30%); /* Move it back by half its width */
   border-radius: 60%;
   animation: rotate 20s infinite;
   }
