@@ -232,23 +232,23 @@ body {
 .floating-background{
   width: 40vw;
   height: 35vw;
-  background-color: rgba(77, 69, 69, 0.295);
+  background-color: rgba(77, 69, 69, 0.13);
   position: absolute;
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   left: 30%;
   border-radius: 60%;
-  animation: rotate 30s infinite;
+  animation: rotate 20s infinite;
   }
   
   .floating-background::before{
     content: "";
     width: 105%;
     height: 95%;
-    background-color: rgba(77, 69, 69, 0.295);
+    background-color: rgba(77, 69, 69, 0.055);
     position: absolute;
-    left: 0;
+    left: -5%;
     border-radius: 60%;
-    animation: rotate 30s infinite;
+    animation: rotate 20s infinite;
   }
 
   @keyframes rotate{
