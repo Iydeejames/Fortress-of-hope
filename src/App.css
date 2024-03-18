@@ -230,8 +230,8 @@ body {
 }
 
 .floating-background{
-  width: 40vw;
-  height: 35vw;
+  width: 600px;
+  height: 475px;
   background-color: rgba(77, 69, 69, 0.13);
   position: absolute;
   margin-top: 1.5rem;
