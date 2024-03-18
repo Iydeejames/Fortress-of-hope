@@ -229,6 +229,39 @@ body {
   padding-right: 2rem;
 }
 
+.floating-background{
+  width: 40vw;
+  height: 35vw;
+  background-color: rgba(255, 68, 0, 0.315);
+  position: absolute;
+  margin-top: 3rem;
+  left: 30%;
+  border-radius: 60%;
+  animation: rotate 30s infinite;
+  }
+  
+  .floating-background::before{
+    content: "";
+    width: 105%;
+    height: 95%;
+    background-color: rgba(224, 112, 20, 0.205);
+    position: absolute;
+
+    left: 0;
+    border-radius: 60%;
+    animation: rotate 30s infinite;
+  }
+
+  @keyframes rotate{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
 .video-card {
   width: 290px; 
   height: 220px; 
@@ -334,7 +367,7 @@ video {
   line-height: 1.7rem;
 }
 
-/* PhotoSection.css */
+/* PhotoSection.css 
 .photo-section {
   display: flex;
   animation: slideAnimation 15s linear infinite;
@@ -375,8 +408,6 @@ video {
   height: 20vh;
   margin-right: -1px; 
   border-radius: 2.5rem;
-  /*margin-top: 3rem;
-  margin-bottom: 3rem; */
 } 
 
 
@@ -388,3 +419,4 @@ video {
     transform: translateX(-100%); 
   }
 }
+*/

@@ -34,7 +34,9 @@ const VideoSection = () => {
   return (
     <div className="video-section">
       <h2>Fortress TV</h2>
+
       <div className="video-container">
+      <div className='floating-background'></div>
         {[...Array(6)].map((_, index) => (
           <div key={index} className="video-card">
             <div className="video-wrapper">
