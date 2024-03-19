@@ -235,7 +235,7 @@ body {
   background-color: rgba(77, 69, 69, 0.13);
   position: absolute;
   margin-top: 2rem;
-  border-radius: 60%;
+  border-radius: 20%;
   animation: rotate 15s infinite;
   }
   
@@ -246,7 +246,7 @@ body {
     background-color: rgba(77, 69, 69, 0.055);
     position: absolute;
     left: -5%;
-    border-radius: 60%;
+    border-radius: 20%;
     animation: rotate 15s infinite;
   }
 
@@ -383,7 +383,7 @@ video {
 }
 
 .first-photo {
-  height: 284px;
+  height: 264px;
   width: 330px;
   margin-right: 4px;
   border-radius: 19px 0 0 19px ;
@@ -395,7 +395,7 @@ video {
 }
 
 .photo-box img:not(.first-photo) {
-  height: 90px;
+  height: 83.1px;
   width: 150px;
   margin-bottom: 7px; 
 }
