@@ -400,7 +400,7 @@ video {
   margin-bottom: 7px; 
 }
 
-/* Hide the left photo box initially */
+/* Hides the left photo box initially */
 .left-hidden .photo-box:nth-child(1) {
   display: none;
 }
