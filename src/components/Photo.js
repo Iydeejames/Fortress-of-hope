@@ -7,7 +7,7 @@ import fourthLeftPhoto  from '../assets/imgs/FI16.jpg';
 import firstRightPhoto from '../assets/imgs/FI4.JPG';
 import secondRightPhoto from '../assets/imgs/FI10.jpg';
 import thirdRightPhoto from '../assets/imgs/FI11.jpg';
-import fourthRightPhoto from '../assets/imgs/FI2.PNG';
+import fourthRightPhoto from '../assets/imgs/FI13.jpg';
 
 
 const PhotoSection = () => {
