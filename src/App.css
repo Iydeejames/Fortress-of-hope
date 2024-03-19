@@ -368,20 +368,23 @@ video {
 .photo-section {
   display: flex;
   background-color: rgba(77, 69, 69, 0.055);
+  transition: all 0.5s ease;
 }
 
 .photo-box {
   flex: 1;
   display: flex;
-  padding: 80px;
-  margin-left: 0rem;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .first-photo {
-  height: 65vh;
-  width: 25vw;
-  margin-right: 6px;
-  border-radius: 16px 0 0 16px ;
+  height: 315px;
+  width: 330px;
+  margin-right: 4px;
+  border-radius: 19px 0 0 19px ;
 }
 
 .small-photos-container {
@@ -390,7 +393,29 @@ video {
 }
 
 .photo-box img:not(.first-photo) {
-  height: 21vh;
-  width: 13vw;
+  height: 100px;
+  width: 150px;
   margin-bottom: 7px; 
 }
+
+/* Hide the left photo box initially */
+.left-hidden .photo-box:nth-child(1) {
+  display: none;
+}
+
+
+/* Adjust layout for smaller screens 
+@media (max-width: 768px) {
+  .photo-section {
+    flex-direction: column;
+  }
+  
+  .left-hidden .photo-box:nth-child(1) {
+    display: flex;
+  }
+
+  .photo-box {
+    flex: unset;
+  }
+}
+*/
