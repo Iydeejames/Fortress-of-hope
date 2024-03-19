@@ -368,6 +368,7 @@ video {
 /* Photo-Section*/
 .photo-section {
   display: flex;
+  background-color: rgba(77, 69, 69, 0.055);
 }
 
 .photo-box {
@@ -379,16 +380,16 @@ video {
 .first-photo {
   height: 65vh;
   width: 25vw;
-  margin-right: 10px; /* Add margin to separate the larger photo from the smaller ones */
+  margin-right: 10px;
 }
 
 .small-photos-container {
   display: flex;
-  flex-direction: column; /* Set column direction to keep smaller photos vertically aligned */
+  flex-direction: column; 
 }
 
 .photo-box img:not(.first-photo) {
-  height: 22vh;
+  height: 21vh;
   width: 13vw;
   margin-bottom: 7px; 
 }
