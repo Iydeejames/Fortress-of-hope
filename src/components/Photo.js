@@ -15,23 +15,23 @@ const PhotoSection = () => {
     <div className="photo-section">
       <div className="photo-box">
         <img
-          src={firstPhoto}
+          src={firstLeftPhoto}
           alt="First photo"
           className="first-photo"
         />
-        <img src={secondPhoto} alt="Second photo" />
-        <img src={thirdPhoto} alt="Third photo" />
-        <img src={fourthPhoto} alt="Fourth photo" />
+        <img src={secondLeftPhoto} alt="Second photo" />
+        <img src={thirdLeftPhoto} alt="Third photo" />
+        <img src={fourthLeftPhoto} alt="Fourth photo" />
       </div>
       <div className="photo-box">
         <img
-          src={firstPhoto}
+          src={firstRightPhoto}
           alt="First photo"
           className="first-photo"
         />
-        <img src={secondPhoto} alt="Second photo" />
-        <img src={thirdPhoto} alt="Third photo" />
-        <img src={fourthPhoto} alt="Fourth photo" />
+        <img src={secondRightPhoto} alt="Second photo" />
+        <img src={thirdRightPhoto} alt="Third photo" />
+        <img src={fourthRightPhoto} alt="Fourth photo" />
       </div>
     </div>
   );
