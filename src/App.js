@@ -6,6 +6,7 @@ import BannerSection from './components/Banner';
 import VideoSection from './components/Video';
 import AboutSection from './components/AboutUs';
 import PhotoSection from './components/Photo'
+import FindBranch from './components/FindBranch'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       < VideoSection/>
       < AboutSection/>
       < PhotoSection/>
+      < FindBranch/>
     </div>
 
   );
