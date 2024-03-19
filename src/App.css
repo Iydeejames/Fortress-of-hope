@@ -377,8 +377,8 @@ video {
 }
 
 .first-photo {
-  height: 40vh;
-  width: 15vw;
+  height: 65vh;
+  width: 25vw;
   margin-right: 10px; /* Add margin to separate the larger photo from the smaller ones */
 }
 
@@ -388,7 +388,7 @@ video {
 }
 
 .photo-box img:not(.first-photo) {
-  height: 15vh;
-  width: 10vw;
-  margin-bottom: 10px; /* Add margin between smaller photos */
+  height: 22vh;
+  width: 13vw;
+  margin-bottom: 7px; 
 }
