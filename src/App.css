@@ -236,7 +236,7 @@ body {
   position: absolute;
   margin-top: 1.5rem;
   border-radius: 60%;
-  animation: rotate 20s infinite;
+  animation: rotate 15s infinite;
   }
   
   .floating-background::before{
@@ -247,7 +247,7 @@ body {
     position: absolute;
     left: -5%;
     border-radius: 60%;
-    animation: rotate 20s infinite;
+    animation: rotate 15s infinite;
   }
 
   @keyframes rotate{
