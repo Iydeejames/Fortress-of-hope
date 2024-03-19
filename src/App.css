@@ -385,8 +385,8 @@ video {
 .first-photo {
   height: 315px;
   width: 330px;
-  margin-right: 1.5rem; /* Adjust spacing between the first and smaller photos */
-  border-radius: 19px 0 0 19px;
+  margin-right: 4px;
+  border-radius: 19px 0 0 19px ;
 }
 
 .small-photos-container {
