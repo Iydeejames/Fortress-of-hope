@@ -389,6 +389,6 @@ video {
   margin-bottom: 10px;
 }
 
-.photo-box img:not(.first-photo):not(:first-child) {
-  margin-top: 5px; /* Adjust the spacing between the smaller photos */
+.photo-box img:nth-child(n+2) {
+  margin-left: 2.5vw; /* Adjust the spacing between the first and the smaller photos */
 }

@@ -19,11 +19,9 @@ const PhotoSection = () => {
           alt="First left"
           className="first-photo"
         />
-        <div className="small-photos">
-          <img src={secondLeftPhoto} alt="Second left" />
-          <img src={thirdLeftPhoto} alt="Third left" />
-          <img src={fourthLeftPhoto} alt="Fourth left" />
-        </div>
+        <img src={secondLeftPhoto} alt="Second left" />
+        <img src={thirdLeftPhoto} alt="Third left" />
+        <img src={fourthLeftPhoto} alt="Fourth left" />
       </div>
       <div className="photo-box">
         <img
@@ -31,11 +29,9 @@ const PhotoSection = () => {
           alt="First right"
           className="first-photo"
         />
-        <div className="small-photos">
-          <img src={secondRightPhoto} alt="Second right" />
-          <img src={thirdRightPhoto} alt="Third right" />
-          <img src={fourthRightPhoto} alt="Fourth right" />
-        </div>
+        <img src={secondRightPhoto} alt="Second right" />
+        <img src={thirdRightPhoto} alt="Third right" />
+        <img src={fourthRightPhoto} alt="Fourth right" />
       </div>
     </div>
   );
