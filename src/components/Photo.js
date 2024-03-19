@@ -1,12 +1,13 @@
 import React from 'react';
 
-import image1 from '../assets/imgs/FI3.JPG';
-import image2 from  '../assets/imgs/FI11.jpg';
-import image3 from '../assets/imgs/FI12.jpg';
-import image4 from '../assets/imgs/FI16.jpg';
-import image5 from '../assets/imgs/FI4.JPG';
-import image6 from '../assets/imgs/FI10.jpg';
-import image8 from '../assets/imgs/FI11.jpg';
+import firstLeftPhoto from '../assets/imgs/FI3.JPG';
+import secondLeftPhoto from  '../assets/imgs/FI11.jpg';
+import thirdLeftPhoto from '../assets/imgs/FI12.jpg';
+import fourthLeftPhoto  from '../assets/imgs/FI16.jpg';
+import firstRightPhoto from '../assets/imgs/FI4.JPG';
+import secondRightPhoto from '../assets/imgs/FI10.jpg';
+import thirdRightPhoto from '../assets/imgs/FI11.jpg';
+import fourthRightPhoto from '../assets/imgs/FI2.PNG';
 
 
 const PhotoSection = () => {
