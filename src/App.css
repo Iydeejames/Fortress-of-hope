@@ -383,7 +383,7 @@ video {
 }
 
 .first-photo {
-  height: 315px;
+  height: 284px;
   width: 330px;
   margin-right: 4px;
   border-radius: 19px 0 0 19px ;
@@ -395,7 +395,7 @@ video {
 }
 
 .photo-box img:not(.first-photo) {
-  height: 100px;
+  height: 90px;
   width: 150px;
   margin-bottom: 7px; 
 }
