@@ -321,7 +321,6 @@ video {
 }
 
 /* AboutSection.css */
-
 .about-section {
   display: flex;
   justify-content: center;
@@ -346,7 +345,7 @@ video {
   padding: 20px;
   text-align: center;
   margin-top:6rem;
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
 }
 
 .about-heading {
@@ -374,13 +373,15 @@ video {
 .photo-box {
   flex: 1;
   display: flex;
-  padding: 10px;
+  padding: 80px;
+  margin-left: 0rem;
 }
 
 .first-photo {
   height: 65vh;
   width: 25vw;
-  margin-right: 10px;
+  margin-right: 6px;
+  border-radius: 16px 0 0 16px ;
 }
 
 .small-photos-container {
