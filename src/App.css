@@ -517,7 +517,7 @@ video {
   border: none;
   font-size: 20px;
   cursor: pointer;
-  color:  rgb(255, 0, 0);
+  color:  rgb(0, 0, 0);
 }
 
 .branch-details {
@@ -541,6 +541,7 @@ video {
   font-size: 4rem;
   margin-top: 10px;
   margin-bottom: 45px;
+  color: #aaa;
   font-family: 'Times New Roman', Times, serif;
 }
 
