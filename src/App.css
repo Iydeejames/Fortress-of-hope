@@ -428,10 +428,10 @@ video {
 }
 
 .find-branch-text {
-  font-size: 58px;
-  color: #555;
+  font-size: 70px;
+  color: #aaa;
   margin-bottom: 20px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .find-branch-button {
@@ -443,6 +443,18 @@ video {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  clip-path: polygon(
+    50% 0%,
+    81% 5%,
+    100% 0,
+    100% 100%,
+    80% 95%,
+    50% 100%,
+    30% 95%,
+    0 100%,
+    0 0,
+    23% 5%
+  );
 }
 
 .find-branch-button:hover {
