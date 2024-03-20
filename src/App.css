@@ -428,9 +428,10 @@ video {
 }
 
 .find-branch-text {
-  font-size: 24px;
+  font-size: 58px;
   color: #555;
   margin-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .find-branch-button {
