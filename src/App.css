@@ -429,19 +429,20 @@ video {
 
 .find-branch-text {
   font-size: 70px;
-  color: #aaa;
-  margin-bottom: 20px;
+  color: #000;
+  margin-bottom: 10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .find-branch-button {
   padding: 10px 20px;
   font-size: 18px;
-  background-color: #007bff; /* blue color */
+  background-color:  rgba(29, 194, 194, 0.938); 
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-bottom: 45px;
   transition: background-color 0.3s ease;
   clip-path: polygon(
     50% 0%,
