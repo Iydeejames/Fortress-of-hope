@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import FI10 from "../assets/imgs/FI10.jpg";
+import FI14 from "../assets/imgs/FI14.jpg";
+import FI15 from "../assets/imgs/FI15.jpg";
 
 const FindBranch = () => {
     const [showBranchDetails, setShowBranchDetails] = useState(false);
@@ -13,7 +16,7 @@ const FindBranch = () => {
   
     return (
       <div className="find-branch-container">
-        <h2 className="find-branch-text">Find a Branch closest to you</h2>
+        <h2 className="find-branch-text">Find a Branch nearest to you</h2>
         <button className="find-branch-button" onClick={handleBranchClick}>
           Branches
         </button>
@@ -24,12 +27,12 @@ const FindBranch = () => {
               <button className="close-button" onClick={handleCloseDetails}>
                 X
               </button>
-              <h2>Branch Details</h2>
+              <h2 className='heading'>Branch Details</h2>
               <div className="branch-details">
-                {/* Your content here */}
+                {/* content here */}
                 <div className="branch-item">
-                  <img src="branch1.jpg" alt="Branch 1" />
-                  <h3>Branch 1</h3>
+                  <img src={FI10} alt="" />
+                  <h3>FORTRESS HEADQUATERS</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                     do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -38,8 +41,8 @@ const FindBranch = () => {
                   </p>
                 </div>
                 <div className="branch-item">
-                  <img src="branch2.jpg" alt="Branch 2" />
-                  <h3>Branch 2</h3>
+                  <img src={FI14} alt="" />
+                  <h3>LIGHT HOUSE</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                     do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -48,8 +51,8 @@ const FindBranch = () => {
                   </p>
                 </div>
                 <div className="branch-item">
-                  <img src="branch3.jpg" alt="Branch 3" />
-                  <h3>Branch 3</h3>
+                  <img src={FI15} alt="" />
+                  <h3>POWER HOUSE</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                     do eiusmod tempor incididunt ut labore et dolore magna aliqua.
