@@ -421,3 +421,29 @@ video {
   }
 }
 */
+
+/* FindBranch*/
+.find-branch-container {
+  text-align: center;
+}
+
+.find-branch-text {
+  font-size: 24px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.find-branch-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff; /* blue color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.find-branch-button:hover {
+  background-color: #0056b3; /* darker shade of blue on hover */
+}
