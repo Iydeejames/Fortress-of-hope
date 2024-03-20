@@ -449,7 +449,7 @@ video {
 .find-branch-button {
   padding: 10px 20px;
   font-size: 18px;
-  background-color:  rgba(29, 194, 194, 0.938); 
+  background-color:  rgba(235, 16, 16, 0.671); 
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -471,5 +471,5 @@ video {
 }
 
 .find-branch-button:hover {
-  background-color: #0056b3; /* darker shade of blue on hover */
+  background-color: rgba(29, 194, 194, 0.938); 
 }
