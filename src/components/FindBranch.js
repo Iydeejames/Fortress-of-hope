@@ -27,7 +27,7 @@ const FindBranch = () => {
               <button className="close-button" onClick={handleCloseDetails}>
                 X
               </button>
-              <h2 className='heading'>Branch Details</h2>
+              <h2 className='heading'>OUR BRANCHES</h2>
               <div className="branch-details">
                 {/* content here */}
                 <div className="branch-item">
