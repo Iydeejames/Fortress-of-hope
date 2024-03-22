@@ -1,7 +1,7 @@
 import React from 'react';
 
 import firstLeftPhoto from '../assets/imgs/FI3.JPG';
-import secondLeftPhoto from  '../assets/imgs/FI11.jpg';
+import secondLeftPhoto from  '../assets/imgs/FI6.JPG';
 import thirdLeftPhoto from '../assets/imgs/FI12.jpg';
 import fourthLeftPhoto  from '../assets/imgs/FI16.jpg';
 import firstRightPhoto from '../assets/imgs/FI4.JPG';

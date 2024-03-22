@@ -105,7 +105,7 @@ body {
 .hero-section {
   height: 100vh;
   position: relative;
-  background: linear-gradient(rgba(0, 44, 44, 0.89), rgba(1, 51, 51, 0.884));
+  background: linear-gradient(rgba(0, 28, 46, 0.808), rgba(0, 42, 49, 0.856));
   /*background: linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.911)); */
 }
 
@@ -159,6 +159,36 @@ body {
   margin-top: -2rem;
   font-family: 'Times New Roman', Times, serif;
 }
+
+.hero-button {
+  padding: 10px 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  background-color:  rgb(196, 4, 4); 
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 45px;
+  transition: background-color 0.3s ease;
+  clip-path: polygon(
+    50% 0%,
+    81% 5%,
+    100% 0,
+    100% 100%,
+    80% 95%,
+    50% 100%,
+    30% 95%,
+    0 100%,
+    0 0,
+    23% 5%
+  );
+}
+
+.hero-button:hover {
+  background-color: #aaa;
+}
+
 
 /* BannerSection.css */
 
@@ -396,7 +426,7 @@ video {
 .first-photo {
   height: 264px;
   width: 330px;
-  margin-right: 4px;
+  margin-right: 1px;
   border-radius: 19px 0 0 19px ;
 }
 
@@ -406,9 +436,9 @@ video {
 }
 
 .photo-box img:not(.first-photo) {
-  height: 83.1px;
+  height: 88px;
   width: 150px;
-  margin-bottom: 7px; 
+  margin-bottom: 1px; 
 }
 
 /* Hides the left photo box initially */
@@ -511,13 +541,17 @@ video {
 
 .close-button {
   position: absolute;
-  top: 10px;
+  top: 3.5rem;
   right: 10px;
   background: none;
   border: none;
   font-size: 20px;
   cursor: pointer;
   color:  rgb(0, 0, 0);
+}
+
+.close-button:hover {
+  color: red;
 }
 
 .branch-details {
@@ -534,7 +568,7 @@ video {
   width: 100%;
   height: 25vh;
   max-width: 200px;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 .heading {
