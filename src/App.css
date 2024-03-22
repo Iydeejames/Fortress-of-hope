@@ -611,18 +611,44 @@ video {
 }
 
 .yes-button {
-  background-color: red;
-  color: white;
-  font-size: 18px;
   padding: 10px 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  background-color:  rgba(235, 16, 16, 0.671); 
+  color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  margin-bottom: 45px;
+  transition: background-color 0.3s ease;
+  clip-path: polygon(
+    50% 0%,
+    81% 5%,
+    100% 0,
+    100% 100%,
+    80% 95%,
+    50% 100%,
+    30% 95%,
+    0 100%,
+    0 0,
+    23% 5%
+  );
 }
 
 .yes-button:hover {
-  background-color: darkred;
+  background-color: #aaa; 
+  clip-path: polygon(
+    40% 15%,
+    77% 15%,
+    100% 10%,
+    100% 90%,
+    75% 85%,
+    40% 85%,
+    30% 100%,
+    0 50%,
+    0 50%,
+    30% 0
+  );
 }
 
 .back-button {
