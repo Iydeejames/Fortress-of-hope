@@ -164,11 +164,11 @@ body {
   padding: 10px 20px;
   font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
-  background-color:  rgb(245, 42, 42); 
+  background-color: rgb(196, 4, 4); 
   color: #fff;
   border: none;
   border-radius: 5px;
-  cursor: pointer;
+  cursor: pointer; /* Cursor set to pointer */
   margin-bottom: 45px;
   transition: background-color 0.3s ease;
   clip-path: polygon(
@@ -186,7 +186,7 @@ body {
 }
 
 .hero-button:hover {
-  background-color: #aaa;
+  background-color: #aaa; /* Background color changes on hover */
 }
 
 
