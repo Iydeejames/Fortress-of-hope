@@ -9,6 +9,7 @@ const HeroSection = () => {
     const images = [FI3];
     //const images = [FI3, FI4, FI5];
   
+    
     useEffect(() => {
       const interval = setInterval(() => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
@@ -16,6 +17,11 @@ const HeroSection = () => {
   
       return () => clearInterval(interval);
     }, [currentIndex, images.length]);
+
+    const handleLiveStreamClick = () => {
+        // Redirect to the live stream page
+        window.location.href = "your_live_stream_link_here";
+    };
   
     return (
       <div id="home" className="hero-section"> 
@@ -37,10 +43,10 @@ const HeroSection = () => {
           <div className="hero-text">
             <h1>FORTRESS OF HOPE GOSPEL CENTER</h1>
           </div>
-          <button className="hero-button"> Live Stream</button>
+          <button className="hero-button" onClick={handleLiveStreamClick}> Live Stream</button>
         </div>
       </div>
     );
   };
   
-  export default HeroSection;
+export default HeroSection;
