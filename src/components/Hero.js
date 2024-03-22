@@ -20,7 +20,7 @@ const HeroSection = () => {
 
     const handleLiveStreamClick = () => {
         // Redirect to the live stream page
-        window.location.href = "your_live_stream_link_here";
+        window.location.href = "https://www.instagram.com/raisedinitiatives?igshid=YTQwZjQ0Nml0OA==";
     };
   
     return (
