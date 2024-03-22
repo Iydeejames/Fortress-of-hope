@@ -43,7 +43,7 @@ const HeroSection = () => {
           <div className="hero-text">
             <h1>FORTRESS OF HOPE GOSPEL CENTER</h1>
           </div>
-
+          <button className="hero-button" onClick={handleLiveStreamClick}> Live Stream</button>
         </div>
       </div>
     );
