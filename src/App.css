@@ -598,9 +598,9 @@ video {
 }
 
 .salvation-section h2 {
-  font-size: 50px;
+  font-size: 40px;
   color: #333;
-  padding-top: 2rem;
+  padding-top: 1rem;
   margin-bottom: 1rem;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -630,7 +630,7 @@ video {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   transition: background-color 0.3s ease;
   clip-path: polygon(
     50% 0%,
