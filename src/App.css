@@ -167,7 +167,6 @@ body {
   background-color:  rgb(245, 42, 42); 
   color: #fff;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
   margin-bottom: 45px;
   transition: background-color 0.3s ease;
@@ -469,7 +468,8 @@ video {
 }
 
 .find-branch-text {
-  font-size: 70px;
+  font-size: 60px;
+  margin-top: 2.8rem;
   color: #333;
   margin-bottom: 10px;
   font-family: 'Times New Roman', Times, serif;
@@ -482,9 +482,8 @@ video {
   background-color:  rgba(235, 16, 16, 0.671); 
   color: #fff;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
-  margin-bottom: 10px;
+  margin-bottom: 1px;
   transition: background-color 0.3s ease;
   clip-path: polygon(
     50% 0%,
@@ -594,15 +593,15 @@ video {
 
 .salvation-section {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 40px;
   background-color: rgba(29, 194, 194, 0.466);
 }
 
 .salvation-section h2 {
-  font-size: 40px;
+  font-size: 30px;
   color: #333;
   padding-top: 1rem;
-  margin-bottom: 0rem;
+  margin-bottom: .9rem;
   font-family: 'Times New Roman', Times, serif;
 }
 
@@ -623,13 +622,12 @@ video {
 }
 
 .yes-button {
-  padding: 8px 18px;
+  padding: 6px 15px;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 13px;
+  font-size: 12px;
   background-color:  rgba(235, 16, 16, 0.76); 
   color: #fff;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
   margin-bottom: 20px;
   transition: background-color 0.3s ease;
