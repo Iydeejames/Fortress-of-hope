@@ -502,6 +502,7 @@ video {
 
 .find-branch-button:hover {
   background-color: #aaa; 
+      /*
   clip-path: polygon(
     40% 15%,
     77% 15%,
@@ -513,7 +514,7 @@ video {
     0 50%,
     0 50%,
     30% 0
-  );
+  ); */
 }
 
 
