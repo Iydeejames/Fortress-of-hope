@@ -609,3 +609,33 @@ video {
   line-height: 1.6;
   margin-bottom: 20px;
 }
+
+.yes-button {
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.yes-button:hover {
+  background-color: darkred;
+}
+
+.back-button {
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #ccc;
+}
