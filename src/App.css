@@ -484,7 +484,7 @@ video {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-bottom: 45px;
+  margin-bottom: 15px;
   transition: background-color 0.3s ease;
   clip-path: polygon(
     50% 0%,
@@ -592,6 +592,14 @@ video {
 .salvation-section {
   text-align: center;
   margin-top: 50px;
+  background-color: rgba(29, 194, 194, 0.466);
+}
+
+.salvation-section h2 {
+  font-size: 50px;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .salvation-page {
@@ -614,7 +622,7 @@ video {
   padding: 10px 20px;
   font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
-  background-color:  rgba(235, 16, 16, 0.671); 
+  background-color:  rgba(235, 16, 16, 0.795); 
   color: #fff;
   border: none;
   border-radius: 5px;
