@@ -14,12 +14,12 @@ function App() {
     <div className="App">
       < Navbar/>
       < HeroSection/>
-      < BannerSection/>
-      < VideoSection/>
       < AboutSection/>
+      < VideoSection/>
+      < SalvationSection />
       < PhotoSection/>
       < FindBranch/>
-      < SalvationSection />
+      < BannerSection/>
     </div>
 
   );
