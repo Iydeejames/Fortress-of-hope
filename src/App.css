@@ -598,7 +598,8 @@ video {
 .salvation-section h2 {
   font-size: 50px;
   color: #333;
-  margin-bottom: 10px;
+  padding-top: 3rem;
+  margin-bottom: 1rem;
   font-family: 'Times New Roman', Times, serif;
 }
 
