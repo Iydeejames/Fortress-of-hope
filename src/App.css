@@ -601,7 +601,7 @@ video {
   font-size: 40px;
   color: #333;
   padding-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   font-family: 'Times New Roman', Times, serif;
 }
 
@@ -622,9 +622,9 @@ video {
 }
 
 .yes-button {
-  padding: 10px 20px;
+  padding: 8px 18px;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 16px;
+  font-size: 13px;
   background-color:  rgba(235, 16, 16, 0.76); 
   color: #fff;
   border: none;
@@ -648,18 +648,6 @@ video {
 
 .yes-button:hover {
   background-color: #aaa; 
-  clip-path: polygon(
-    40% 15%,
-    77% 15%,
-    100% 10%,
-    100% 90%,
-    75% 85%,
-    40% 85%,
-    30% 100%,
-    0 50%,
-    0 50%,
-    30% 0
-  );
 }
 
 .back-button {
