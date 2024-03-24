@@ -13,21 +13,20 @@ const EventSection = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prevIndex) => (prevIndex + 1) % photos.length);
-    }, 6000);
+    }, 5000); // Change interval to 5 seconds
 
     return () => clearInterval(interval);
   }, [photos]);
 
   return (
     <div className="event-section">
-      {photos.map((photo, index) => (
+      <div className="card">
         <img
-          key={index}
-          src={photo}
-          alt={`Event ${index + 1}`}
-          className={index === activeIndex ? 'active' : ''}
+          src={photos[activeIndex]}
+          alt={`Event ${activeIndex + 1}`}
+          className="card-image"
         />
-      ))}
+      </div>
     </div>
   );
 };
