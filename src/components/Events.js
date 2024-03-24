@@ -10,13 +10,19 @@ const photos = [photo1, photo2, photo3, photo4];
 const EventSection = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
+  const goToNext = () => {
+    setActiveIndex((prevIndex) => (prevIndex + 1) % photos.length);
+  };
+
+  const goToPrevious = () => {
+    setActiveIndex((prevIndex) => (prevIndex - 1 + photos.length) % photos.length);
+  };
+
   useEffect(() => {
-    const interval = setInterval(() => {
-      setActiveIndex((prevIndex) => (prevIndex + 1) % photos.length);
-    }, 5000); // Change interval to 5 seconds
+    const interval = setInterval(goToNext, 7000); 
 
     return () => clearInterval(interval);
-  }, [photos]);
+  }, []);
 
   return (
     <div className="event-section">
@@ -26,6 +32,9 @@ const EventSection = () => {
           alt={`Event ${activeIndex + 1}`}
           className="card-image"
         />
+        {/*
+        <button className="arrow left" onClick={goToPrevious}>{'<'}</button>
+        <button className="arrow right" onClick={goToNext}>{'>'}</button> */}
       </div>
     </div>
   );
