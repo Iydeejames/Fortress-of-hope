@@ -645,7 +645,7 @@ video {
 }
 
 .salvation-page p {
-  font-size: 16px;
+  font-size: 15.5px;
   line-height: 1.6;
   margin-bottom: 20px;
 }
@@ -704,7 +704,7 @@ video {
 }
 
 .back-button:hover {
-  background-color: #ccc;
+  background-color: #000;
 }
 
 /* Events */
