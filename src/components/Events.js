@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import './EventSection.css';
 
 import photo1 from '../assets/imgs/FI17.JPG';
 import photo2 from '../assets/imgs/FI18.JPG';
@@ -8,7 +7,7 @@ import photo4 from '../assets/imgs/FI20.JPG';
 
 const photos = [photo1, photo2, photo3, photo4];
 
-const EventSection = ({ photos }) => {
+const EventSection = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
