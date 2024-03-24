@@ -594,6 +594,10 @@ video {
   margin-top: 10px;
 }
 
+.invisible {
+  display: none;
+}
+
 /* Salvation */
 
 .salvation-section {
