@@ -594,9 +594,6 @@ video {
   margin-top: 10px;
 }
 
-.invisible {
-  display: none;
-}
 
 /* Salvation */
 
@@ -630,11 +627,21 @@ video {
 .salvation-page {
   background-color: white;
   padding: 20px;
-  margin: 20px auto;
-  width: 80%;
-  max-width: 600px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 10px auto;
+  width: 100%;
+  background-color:  rgba(29, 194, 194, 0.192);
+  clip-path: polygon(
+    50% 0%,
+    81% 5%,
+    100% 0,
+    100% 100%,
+    80% 95%,
+    50% 100%,
+    30% 95%,
+    0 100%,
+    0 0,
+    23% 5%
+  );
 }
 
 .salvation-page p {
@@ -672,14 +679,28 @@ video {
 }
 
 .back-button {
-  background-color: #f0f0f0;
-  color: #333;
-  font-size: 16px;
-  padding: 8px 16px;
+  padding: 6px 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+  background-color:  rgba(235, 16, 16, 0.76); 
+  color: #fff;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
+  margin-bottom: -2rem;
+  margin-top: -2rem;
+  transition: background-color 0.3s ease;
+  clip-path: polygon(
+    50% 0%,
+    81% 5%,
+    100% 0,
+    100% 100%,
+    80% 95%,
+    50% 100%,
+    30% 95%,
+    0 100%,
+    0 0,
+    23% 5%
+  );
 }
 
 .back-button:hover {

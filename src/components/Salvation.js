@@ -21,7 +21,8 @@ const SalvationSection = () => {
       ) : (
         <div className="salvation-page">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <b>SAY THIS PRAYER:</b> LORD JESUS, come into my life, be my personal LORD and Saviour,
+              forgive my sins, guide my steps and write my name in the ook of life. Amen, thank you for saving me.
           </p>
           <button onClick={handleBackClick} className="back-button">Back</button>
         </div>
