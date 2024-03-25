@@ -1,20 +1,52 @@
+// BranchDetails.js
 import React from 'react';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import FI10 from "../assets/imgs/FI10.jpg";
+import FI14 from "../assets/imgs/FI14.jpg";
+import FI15 from "../assets/imgs/FI15.jpg";
 
-const Map = () => {
+const BranchDetails = ({ handleCloseDetails }) => {
   return (
-    <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: '400px', width: '100%' }}>
-      <TileLayer
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-      />
-      <Marker position={[51.505, -0.09]}>
-        <Popup>
-          A pretty CSS3 popup. <br /> Easily customizable.
-        </Popup>
-      </Marker>
-    </MapContainer>
+    <div className="branch-details-overlay">
+      <div className="branch-details-content">
+        <button className="close-button" onClick={handleCloseDetails}>
+          X
+        </button>
+        <h2 className='heading'>Worship with us at:</h2>
+        <div className="branch-details">
+          <div className="branch-item">
+            <img src={FI10} alt="" />
+            <h3>FORTRESS HEADQUATERS</h3>
+            <p>
+              Fortress Of Hope Gospel Church, Nwaniba road, opposite NDLEA, Uyo.<br></br>
+              <b>Our time of services are:</b> <br></br>
+              Sunday: 7am and 9am<br></br>
+              Wednesday: 5pm <br></br>
+            </p>
+          </div>
+          <div className="branch-item">
+            <img src={FI14} alt="" />
+            <h3>LIGHT HOUSE</h3>
+            <p>
+              Fortress Of Hope Gospel Church, Uyo.<br></br>
+              <b>Our time of services are:</b> <br></br>
+              Sunday: 7am and 9am<br></br>
+              Wednesday: 5pm <br></br>
+            </p>
+          </div>
+          <div className="branch-item">
+            <img src={FI15} alt="" />
+            <h3>POWER HOUSE</h3>
+            <p>
+              Fortress Of Hope Gospel Church, Uyo.<br></br>
+              <b>Our time of services are:</b> <br></br>
+              Sunday: 7am and 9am<br></br>
+              Wednesday: 5pm <br></br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 
-export default Map;
+export default BranchDetails;
