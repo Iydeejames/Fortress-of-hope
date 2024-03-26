@@ -1,17 +1,13 @@
+// FindBranch.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import FindBranch from './FindBranch';
-import BranchDetails from './BranchDetails'; 
 
-const App = () => {
+const FindBranch = ({ handleShowBranchDetails }) => {
   return (
-    <Router>
-      <Switch>
-        <Route exact path="/" component={FindBranch} />
-        <Route path="/locations" component={BranchDetails} />
-      </Switch>
-    </Router>
+    <div className="find-branch-container">
+      <h2>Find a Branch nearest to you</h2>
+      <button onClick={handleShowBranchDetails}>Locations</button>
+    </div>
   );
 }
 
-export default App;
+export default FindBranch;

@@ -484,7 +484,7 @@ video {
   );
 }
 
-.find-branch-text {
+.find-branch-container h2 {
   font-size: 35px;
   margin-top: -1rem;
   margin-bottom: -1.5rem;
@@ -494,7 +494,7 @@ video {
   font-family: 'Times New Roman', Times, serif;
 }
 
-.find-branch-button {
+.find-branch-container button {
   padding: 7px 14px;
   font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
@@ -518,10 +518,11 @@ video {
   );
 }
 
-.find-branch-button:hover {
+.find-branch-container button:hover {
   background-color: #000; 
 }
 
+/*End of FindBranch*/
 
 .branch-details-overlay {
   position: fixed;
