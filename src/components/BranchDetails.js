@@ -1,3 +1,5 @@
+// BranchDetails.js
+
 import React from 'react';
 import FI10 from "../assets/imgs/FI10.jpg";
 import FI14 from "../assets/imgs/FI14.jpg";
