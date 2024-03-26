@@ -11,11 +11,13 @@ const FindBranch = () => {
 
   return (
     <div className="find-branch-container">
-      <h2>Find a Branch nearest to you</h2>
       {!showBranchDetails && (
-        <button onClick={handleShowBranchDetails}>Locations</button>
+        <>
+          <h2>Find a Branch nearest to you</h2>
+          <button onClick={handleShowBranchDetails}>Locations</button>
+        </>
       )}
-      {showBranchDetails && <BranchDetails handleCloseDetails={() => setShowBranchDetails(false)} />}
+      {showBranchDetails && <BranchDetails />}
     </div>
   );
 };
