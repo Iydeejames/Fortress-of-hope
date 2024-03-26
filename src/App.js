@@ -23,6 +23,7 @@ function App() {
       < FindBranch/>
       < BannerSection/>
       < EventSection/>
+      < BranchDetails/>
 
     </div>
 
