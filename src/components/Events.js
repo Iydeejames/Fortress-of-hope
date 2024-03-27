@@ -7,7 +7,7 @@ import photo4 from '../assets/imgs/FI20.JPG';
 
 const photos = [photo1, photo2, photo3, photo4];
 
-const EventSection = () => {
+const EventSection = ({ showBranchDetails }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const goToNext = () => {
@@ -25,16 +25,17 @@ const EventSection = () => {
   }, []);
 
   return (
-    <div className="event-section">
+    <div className="event-section" style={{ display: showBranchDetails ? 'none' : 'flex' }}>
       <div className="card">
         <img
           src={photos[activeIndex]}
           alt={`Event ${activeIndex + 1}`}
           className="card-image"
         />
-        {/*
+        {/* 
         <button className="arrow left" onClick={goToPrevious}>{'<'}</button>
-        <button className="arrow right" onClick={goToNext}>{'>'}</button> */}
+        <button className="arrow right" onClick={goToNext}>{'>'}</button> 
+        */}
       </div>
     </div>
   );

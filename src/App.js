@@ -30,14 +30,10 @@ function App() {
       <VideoSection />
       <SalvationSection />
       <PhotoSection />
-      {!showBranchDetails && (
-        <FindBranch handleShowBranchDetails={handleShowBranchDetails} />
-      )}
-      {showBranchDetails && (
-        <BranchDetails handleCloseBranchDetails={handleCloseBranchDetails} />
-      )}
+      <FindBranch handleShowBranchDetails={handleShowBranchDetails} />
       <BannerSection />
-      <EventSection />
+      {!showBranchDetails && <EventSection />}
+      {showBranchDetails && <BranchDetails handleCloseBranchDetails={handleCloseBranchDetails} />}
     </div>
   );
 }
