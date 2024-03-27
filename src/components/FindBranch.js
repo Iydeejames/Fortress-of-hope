@@ -1,12 +1,18 @@
+// FindBranch.js
+
 import React from 'react';
 
-const FindBranch = ({ handleShowBranchDetails }) => {
+function FindBranch({ navigateTo }) {
+  const handleButtonClick = () => {
+    navigateTo('BranchDetails');
+  };
+
   return (
-    <div className="find-branch-container">
+    <div>
       <h2>Find a Branch nearest to you</h2>
-      <button onClick={handleShowBranchDetails}>Locations</button>
+      <button onClick={handleButtonClick}>Locations</button>
     </div>
   );
-};
+}
 
 export default FindBranch;
