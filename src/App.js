@@ -9,7 +9,7 @@ import PhotoSection from './components/Photo';
 import FindBranch from './components/FindBranch';
 import BranchDetails from './components/BranchDetails'; // Import BranchDetails component
 import SalvationSection from './components/Salvation';
-import EventSection from './components/Events';
+import EventSection from './components/Events'; 
 
 function App() {
   const [currentPage, setCurrentPage] = useState('FindBranch'); // Add state for current page

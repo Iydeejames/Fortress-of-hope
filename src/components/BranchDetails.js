@@ -3,12 +3,15 @@ import FI10 from "../assets/imgs/FI10.jpg";
 import FI14 from "../assets/imgs/FI14.jpg";
 import FI15 from "../assets/imgs/FI15.jpg";
 
-
 const BranchDetails = ({ handleCloseDetails }) => {
+  const handleBackButtonClick = () => {
+    handleCloseDetails(); // Call handleCloseDetails to navigate back to the main page
+  };
+
   return (
     <div className="branch-details-overlay">
       <div className="branch-details-content">
-        <button className="close-button" onClick={handleCloseDetails}>
+        <button className="close-button" onClick={handleBackButtonClick}>
           X
         </button>
         <h2 className='heading'>Worship with us at:</h2>
