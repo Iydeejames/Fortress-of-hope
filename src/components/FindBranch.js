@@ -20,9 +20,11 @@ const FindBranch = () => {
       {showBranchDetails ? (
         <BranchDetails handleCloseDetails={handleCloseDetails} />
       ) : (
-        <div>
+        <div className='find-branch-container '>
+          <div>
           <h2>Find a Branch nearest to you</h2>
           <button onClick={handleShowBranchDetails}>Locations</button>
+        </div>
         </div>
       )}
     </div>
