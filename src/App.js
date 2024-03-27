@@ -7,7 +7,7 @@ import VideoSection from './components/Video';
 import AboutSection from './components/AboutUs';
 import PhotoSection from './components/Photo';
 import FindBranch from './components/FindBranch';
-import BranchDetails from './components/BranchDetails'; // Import BranchDetails component
+import BranchDetails from './components/BranchDetails';
 import SalvationSection from './components/Salvation';
 import EventSection from './components/Events'; 
 
