@@ -439,7 +439,7 @@ video {
 }
 
 .photo-box img:not(.first-photo) {
-  height: 88px;
+  height: 87.5px;
   width: 150px;
   margin-bottom: 1px; 
 }
@@ -733,6 +733,7 @@ video {
   transition: opacity 0.5s ease-in-out;
 }
 
+/*
 .arrow {
   position: absolute;
   top: 50%;
@@ -758,4 +759,4 @@ video {
 .arrow.right {
   right: 0;
 }
-
+*/
