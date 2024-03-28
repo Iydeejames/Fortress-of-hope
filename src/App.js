@@ -32,7 +32,7 @@ function App() {
       <PhotoSection />
       <FindBranch handleShowBranchDetails={handleShowBranchDetails} />
       <BannerSection />
-      {!showBranchDetails && <EventSection />}
+      <EventSection />
       {showBranchDetails && <BranchDetails handleCloseBranchDetails={handleCloseBranchDetails} />}
     </div>
   );
