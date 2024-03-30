@@ -711,6 +711,7 @@ video {
 
 /* Events */
 .event-section {
+  margin-top: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -760,3 +761,67 @@ video {
   right: 0;
 }
 */
+
+/* ConnectSection */
+.connect-section {
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 0;
+  margin-top: 5rem;
+  opacity: 0.85;
+}
+
+.connect-content {
+  color: white;
+  margin-top: -4rem;
+  margin-bottom: -3rem;
+}
+
+.connect-content h2 {
+  font-size: 39px;
+  margin-top: -2rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.connect-content h3 {
+  font-size: 21px;
+  font-style: italic;
+  margin-bottom: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.connect-button {
+  background-color: rgb(224, 38, 38);
+  color: #fff;
+  border: none;
+  padding: 10px 50px;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  font-family: 'Times New Roman', Times, serif;
+  clip-path: polygon(
+    50% 0%,
+    81% 5%,
+    100% 0,
+    100% 100%,
+    80% 95%,
+    50% 100%,
+    30% 95%,
+    0 100%,
+    0 0,
+    23% 5%
+  );
+}
+
+.connect-button:hover {
+  background-color: #fff;
+  color: #333;
+}

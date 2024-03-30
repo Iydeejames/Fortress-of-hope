@@ -33,6 +33,7 @@ function App() {
       <PhotoSection />
       <FindBranch />
       <BannerSection />
+      <ConnectSection />
       <EventSection />
       {showBranchDetails && <BranchDetails handleCloseBranchDetails={handleCloseBranchDetails} />}
     </div>
