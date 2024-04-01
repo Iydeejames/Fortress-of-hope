@@ -10,7 +10,8 @@ import FindBranch from './components/FindBranch';
 import BranchDetails from './components/BranchDetails';
 import SalvationSection from './components/Salvation';
 import EventSection from './components/Events';
-import ConnectSection from './components/Connect'
+import ConnectSection from './components/Connect';
+import PastorsSection from './components/OurPastors'
 
 function App() {
   const [showBranchDetails, setShowBranchDetails] = useState(false);
@@ -35,6 +36,7 @@ function App() {
       <BannerSection />
       <ConnectSection />
       <EventSection />
+      <PastorsSection />
       {showBranchDetails && <BranchDetails handleCloseBranchDetails={handleCloseBranchDetails} />}
     </div>
   );
