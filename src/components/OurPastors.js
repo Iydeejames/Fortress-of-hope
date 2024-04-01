@@ -8,7 +8,7 @@ const PastorsSection = ()=> {
 
  return (
  <div className='pastors-section'>
-    <h2> Our Pastors</h2>
+    <h2>Meet Our Pastors</h2>
     <div className='cards-container'>
         <div className='card-content'>
           <img src={firstPhoto} alt='Rev Amba'/>
