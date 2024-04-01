@@ -10,8 +10,8 @@ const ConnectSection = () => {
         <div className="buttons-container">
           <a href="#" className="connect-button">Adults</a>
           <a href="#" className="connect-button">Youths</a>
-          <a href="#" className="connect-button">Mens Fellowship</a>
-          <a href="#" className="connect-button">Womens Fellowship</a>
+          <a href="#" className="connect-button">Men's Fellowship</a>
+          <a href="#" className="connect-button">Women's Fellowship</a>
         </div>
       </div>
     </section>
