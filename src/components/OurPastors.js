@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import firstPhoto from '../assets/imgs/FI5.JPG';
 import secondPhoto from '../assets/imgs/FI21.JPG';
-import './PastorsSection.css'; // Import CSS file for styling
+
 
 const PastorsSection = () => {
     const [isOpen, setIsOpen] = useState(false);
