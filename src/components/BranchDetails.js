@@ -52,4 +52,5 @@ const BranchDetails = ({ handleCloseDetails }) => {
   );
 };
 
+
 export default BranchDetails;
