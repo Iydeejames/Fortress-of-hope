@@ -12,7 +12,9 @@ const PastorsSection = ()=> {
     <div className='cards-container'>
         <div className='card-content'>
           <img src={firstPhoto} alt='Rev Amba'/>
-          <h3> Rev. Princa Amba</h3>
+          <h3> Rev. Princa Amba
+          <span> General Overseer</span>
+          </h3>
            <p>The mission of this organization is to be independent of any political ideology,
             religious doctrine, and economic interest but rather a value-adding organization driving the
             African development process through every positive means.
@@ -22,7 +24,6 @@ const PastorsSection = ()=> {
            <div className='story-btn-line'></div>
            </div>
            <div class="story">
-                        <h4>Our General Overseer</h4>
                         <p className="story-paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit Aperiam eveniet pariatur ullam tempore tempora.</p>
                     </div>
     </div>
