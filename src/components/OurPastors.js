@@ -29,12 +29,13 @@ const PastorsSection = ()=> {
 
     <div className='card-content'>
           <img src={secondPhoto} alt='Dr. Evelyn'/>
-          <h3> Dr. Evelyn Amba</h3>
+          <h3> Dr. Evelyn Amba
+          <span> Resident Pastor</span>
+          </h3>
            <div className='story-btn'>About
            <div className='story-btn-line'></div>
            </div>
            <div class="story">
-                        <h4>Our Pastor</h4>
                         <p className="story-paragraph">Lorem ipsum dolor sit amet consectetur,
                          adipisicing elit Aperiam eveniet pariatur ullam tempore tempora.
                          adipisicing elit Aperiam eveniet pariatur ullam tempore tempora
