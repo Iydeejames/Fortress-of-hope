@@ -16,7 +16,7 @@ const PastorsSection = () => {
             <div className='cards-container'>
                 <div className='card-content'>
                     <img src={firstPhoto} alt='Rev Amba' />
-                    <h3>Rev. Princa Amba<span>General Overseer</span></h3>
+                    <h3>Rev. Princa Amba<span> (General Overseer) </span></h3>
                     <div className='story-btn' onClick={toggleStory}>
                         About
                         <div className='story-btn-line'></div>
@@ -30,7 +30,7 @@ const PastorsSection = () => {
 
                 <div className='card-content'>
                     <img src={secondPhoto} alt='Dr. Evelyn' />
-                    <h3>Dr. Evelyn Amba<span>Resident Pastor</span></h3>
+                    <h3>Dr. Evelyn Amba<span> (Resident Pastor) </span></h3>
                     <div className='story-btn' onClick={toggleStory}>
                         About
                         <div className='story-btn-line'></div>
