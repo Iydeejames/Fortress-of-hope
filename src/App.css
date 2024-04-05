@@ -856,9 +856,9 @@ video {
 }
 
 .card-content img {
-  width: 200px; 
-  height: auto;
-  border-radius: 50%;
+  width: 250px; 
+  height: 350px;
+  border-radius: 5%;
 }
 
 .card-content h3 {
