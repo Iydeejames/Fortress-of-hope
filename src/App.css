@@ -826,21 +826,37 @@ video {
   color: #333;
 }
 
+/* pastors-section */
+
 .pastors-section {
+  height: auto;
+  text-align: center;
+  margin-bottom: 4rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.pastors-section h2{
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 1rem;
+  margin-bottom: 1rem; 
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .cards-container {
   display: flex;
-  justify-content: space-around; /* Adjust as needed */
+  justify-content: space-around; 
 }
 
 .card-content {
   text-align: center;
-  margin: 20px; /* Adjust as needed */
+  margin: 20px; 
 }
 
 .card-content img {
-  width: 200px; /* Adjust as needed */
+  width: 200px; 
   height: auto;
   border-radius: 50%;
 }
