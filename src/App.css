@@ -873,13 +873,13 @@ video {
   cursor: pointer;
   position: relative;
   color: #fff; 
-  background-color: rgb(243, 46, 46);
+  background-color: rgba(224, 38, 38, 0.932);
 }
 
 .story-btn-line {
   width: 100%;
   height: 2px;
-  background-color: rgb(243, 46, 46);
+  background-color: rgba(224, 38, 38, 0.945);
 }
 
 .story {
