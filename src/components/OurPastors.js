@@ -30,7 +30,7 @@ const PastorsSection = () => {
 
                 <div className='card-content'>
                     <img src={secondPhoto} alt='Dr. Evelyn' />
-                    <h3>Dr. Evelyn Amba<span> (Resident Pastor) </span></h3>
+                    <h3>Dr. Evelyn Amba<span> (Lead Pastor) </span></h3>
                     <div className='story-btn' onClick={toggleStory}>
                         About
                         <div className='story-btn-line'></div>
