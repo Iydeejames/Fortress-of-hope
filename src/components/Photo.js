@@ -5,7 +5,7 @@ import secondLeftPhoto from  '../assets/imgs/FI6.JPG';
 import thirdLeftPhoto from '../assets/imgs/FI12.jpg';
 import fourthLeftPhoto  from '../assets/imgs/FI16.jpg';
 import firstRightPhoto from '../assets/imgs/FI4.JPG';
-import secondRightPhoto from '../assets/imgs/FI10.jpg';
+import secondRightPhoto from '../assets/imgs/FI23.JPG';
 import thirdRightPhoto from '../assets/imgs/FI11.jpg';
 import fourthRightPhoto from '../assets/imgs/FI13.jpg';
 
