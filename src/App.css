@@ -858,7 +858,7 @@ video {
   background-color:  rgba(29, 194, 194, 0.11);
   position: absolute;
   margin-top: 10rem;
-  border-radius: 60%;
+  border-radius: 0%;
   animation: rotate 10s infinite;
   }
   
@@ -869,7 +869,7 @@ video {
     background-color:  rgba(29, 194, 194, 0.11);
     position: absolute;
     left: -5%;
-    border-radius: 60%;
+    border-radius: 0%;
     animation: rotate 10s infinite;
   }
 
@@ -887,7 +887,7 @@ video {
   text-align: center;
   margin: 20px; 
   width: 29rem;
-  background-color:  rgba(92, 92, 92, 0.062);
+  background-color:  rgba(226, 226, 226, 0.315);
   padding: 1rem 1rem 3rem 1rem;
   box-shadow: 0.7rem 0.7rem 0.9rem, -0.7rem -0.7rem 0.9rem #fff;
   position: relative;
@@ -946,18 +946,6 @@ video {
   text-align: center;
   margin-top: 2rem;
   opacity: 0.9;
-  clip-path: polygon(
-    50% 0%,
-    81% 5%,
-    100% 0,
-    100% 100%,
-    80% 95%,
-    50% 100%,
-    30% 95%,
-    0 100%,
-    0 0,
-    23% 5%
-  );
 }
 
 .invite-container h2 {
@@ -965,7 +953,7 @@ video {
   padding-bottom: 3rem;
   color: white;
   margin-top: 2rem;
-  font-size: 4.4rem;
+  font-size: 4.5rem;
   font-weight: 600;
   font-family: 'Times New Roman', Times, serif;
 }
