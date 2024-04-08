@@ -938,3 +938,34 @@ video {
 .story-btn.change + .story {
   display: block;
 }
+
+/* invite-section */
+.invite-section {
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  margin-top: 2rem;
+  opacity: 0.85;
+  clip-path: polygon(
+    50% 0%,
+    81% 5%,
+    100% 0,
+    100% 100%,
+    80% 95%,
+    50% 100%,
+    30% 95%,
+    0 100%,
+    0 0,
+    23% 5%
+  );
+}
+
+.invite-container h2 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: white;
+  margin-top: 2rem;
+  font-size: 4.4rem;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+}
