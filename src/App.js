@@ -12,6 +12,7 @@ import SalvationSection from './components/Salvation';
 import EventSection from './components/Events';
 import ConnectSection from './components/Connect';
 import PastorsSection from './components/OurPastors'
+import InviteSection from './components/Invite'
 
 function App() {
   const [showBranchDetails, setShowBranchDetails] = useState(false);
@@ -38,6 +39,7 @@ function App() {
       <PastorsSection />
       <EventSection />
       {showBranchDetails && <BranchDetails handleCloseBranchDetails={handleCloseBranchDetails} />}
+      <InviteSection/>
     </div>
   );
 }
