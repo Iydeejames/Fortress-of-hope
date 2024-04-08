@@ -14,6 +14,7 @@ const PastorsSection = () => {
         <div className='pastors-section'>
             <h2>Meet Our Pastors</h2>
             <div className='cards-container'>
+            <div className='floating-bg'></div>
                 <div className='card-content'>
                     <img src={firstPhoto} alt='Rev Amba' />
                     <h3>Rev. Princa Amba<span> (General Overseer) </span></h3>
