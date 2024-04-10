@@ -858,7 +858,7 @@ video {
   background-color:  rgba(29, 194, 194, 0.11);
   position: absolute;
   margin-top: 10rem;
-  border-radius: 0%;
+  border-radius: 100%;
   animation: rotate 10s infinite;
   }
   
@@ -869,7 +869,7 @@ video {
     background-color:  rgba(29, 194, 194, 0.11);
     position: absolute;
     left: -5%;
-    border-radius: 0%;
+    border-radius: 100%;
     animation: rotate 10s infinite;
   }
 
@@ -945,15 +945,43 @@ video {
   background-position: center;
   text-align: center;
   margin-top: 2rem;
-  opacity: 0.9;
 }
 
 .invite-container h2 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: white;
-  margin-top: 2rem;
-  font-size: 4.5rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  color: rgb(0, 0, 0);
+  margin-top: -2rem;
+  font-size: 3.5rem;
   font-weight: 600;
+  font-style: italic;
   font-family: 'Times New Roman', Times, serif;
+}
+
+/* Footer */
+.footer-section{
+  height: 15vh;
+  width: 100%;
+  background-color: rgba(29, 194, 194, 0.486);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.footer-nav a{
+  font-size: 0.9rem;
+  color: #000;
+  margin: 0.8rem;
+  transition: color 0.5s;
+  text-decoration: none;
+}
+
+.footer-nav a:hover{
+  color: #ff0000;
+}
+
+.copyright{
+  font-size: 0.8rem;
+  color: #000;
 }
