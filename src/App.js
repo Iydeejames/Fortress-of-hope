@@ -12,8 +12,9 @@ import SalvationSection from './components/Salvation';
 import EventSection from './components/Events';
 import ConnectSection from './components/Connect';
 import PastorsSection from './components/OurPastors'
-import InviteSection from './components/Invite'
-import FooterSection from './components/Footer'
+import InviteSection from './components/Invite';
+import FooterSection from './components/Footer';
+import ContactSection from './componentsContact';
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
       {showBranchDetails && <BranchDetails handleCloseBranchDetails={handleCloseBranchDetails} />}
       <InviteSection/>
       <FooterSection/>
+      <ContactSection/>
     </div>
   );
 }
