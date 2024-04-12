@@ -11,8 +11,7 @@ const ContactSection = () => {
                     <div className="phone">
                         <FaMobileAlt />
                         <h3>Phone</h3>
-                        <p>+233 247 447 640</p>
-                        <p>+234 903 167 4415</p>
+                        <p>+234 000 000 0000</p>
                     </div>
                     <div className="address">
                         <FaMapMarkerAlt />
@@ -22,7 +21,7 @@ const ContactSection = () => {
                     <div className="email">
                         <FaEnvelope />
                         <h3>Email</h3>
-                        <p>fortress0fhope@gmail.com</p>
+                        <p>fortressofhope@gmail.com</p>
                     </div>
                 </div>
                 <h2 className="form-text">Get in Touch</h2>
