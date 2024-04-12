@@ -14,7 +14,7 @@ import ConnectSection from './components/Connect';
 import PastorsSection from './components/OurPastors'
 import InviteSection from './components/Invite';
 import FooterSection from './components/Footer';
-import ContactSection from './componentsContact';
+import ContactSection from './components/Contact';
 
 
 function App() {
