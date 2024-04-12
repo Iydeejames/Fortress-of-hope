@@ -991,6 +991,12 @@ video {
   color: #0da5d3;
 }
 
+.phone,
+.address,
+.email{
+  color: rgb(29, 194, 194);
+}
+
 .contact-details h3 {
   font-family: 'MADE Soulmaze', sans-serif;
   font-size: 0.9rem;
