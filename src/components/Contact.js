@@ -17,15 +17,12 @@ const ContactSection = () => {
                     <div className="address">
                         <FaMapMarkerAlt />
                         <h3>Address</h3>
-                        <p>Ghana</p>
-                        <p>Nigeria</p>
-                        <p>Mali</p>
-                        <p>Liberia</p>
+                        <p> Fortress Of Hope Gospel Church, Nwaniba road, opposite NDLEA, Uyo.</p>
                     </div>
                     <div className="email">
                         <FaEnvelope />
                         <h3>Email</h3>
-                        <p>info.raisedinitiatives@gmail.com</p>
+                        <p>fortress0fhope@gmail.com</p>
                     </div>
                 </div>
                 <h2 className="form-text">Get in Touch</h2>
