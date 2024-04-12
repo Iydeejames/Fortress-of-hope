@@ -5,7 +5,6 @@ const ContactSection = () => {
 
 
     return (
-        <div id="contact">
         <div className="contact-bar">
             <h1>Contact Us</h1>
             <div className="section-heading-line"></div>
@@ -34,7 +33,7 @@ const ContactSection = () => {
               </div>
     </div>
     </div>
-    </div>
-}
+    )
+};
 
 export default ContactSection;
