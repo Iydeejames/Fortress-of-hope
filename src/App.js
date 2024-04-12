@@ -43,8 +43,8 @@ function App() {
       <EventSection />
       {showBranchDetails && <BranchDetails handleCloseBranchDetails={handleCloseBranchDetails} />}
       <InviteSection/>
-      <FooterSection/>
       <ContactSection/>
+      <FooterSection/>
     </div>
   );
 }
