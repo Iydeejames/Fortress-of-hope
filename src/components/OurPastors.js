@@ -17,7 +17,7 @@ const PastorsSection = () => {
             <div className='floating-bg'></div>
                 <div className='card-content'>
                     <img src={firstPhoto} alt='Rev Amba' />
-                    <h3>Rev. Princa Amba<span> (General Overseer) </span></h3>
+                    <h3>Rev. Prince Amba<span> (General Overseer) </span></h3>
                     <div className='story-btn' onClick={toggleStory}>
                         About
                         <div className='story-btn-line'></div>

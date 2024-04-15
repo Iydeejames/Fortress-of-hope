@@ -13,7 +13,6 @@ return(
     <a href="#online-giving">Online giving</a>
 </div>
 
-
 <p className="copyright">Designed by IydeeJames 2024</p>
 {/*Add a link to the copyright*/}
 </footer>
