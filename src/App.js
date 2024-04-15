@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 import HeroSection from './components/Hero';
@@ -12,11 +12,10 @@ import BranchDetails from './components/BranchDetails';
 import SalvationSection from './components/Salvation';
 import EventSection from './components/Events';
 import ConnectSection from './components/Connect';
-import PastorsSection from './components/OurPastors'
+import PastorsSection from './components/OurPastors';
 import InviteSection from './components/Invite';
 import FooterSection from './components/Footer';
 import ContactSection from './components/Contact';
-
 
 function App() {
   const [showBranchDetails, setShowBranchDetails] = useState(false);
@@ -31,26 +30,28 @@ function App() {
 
   return (
     <Router>
-    <div className="App">
-      <Navbar />
-      <Route path="/">
-      <HeroSection />
-      <AboutSection />
-      <VideoSection />
-      <SalvationSection />
-      <PhotoSection />
-      <FindBranch />
-      <BannerSection />
-      <ConnectSection />
-      <PastorsSection />
-      <EventSection />
-      {showBranchDetails && <BranchDetails handleCloseBranchDetails={handleCloseBranchDetails} />}
-      <InviteSection/>
-      <ContactSection/>
-      <FooterSection/>
-      </Route>
-      <Route path="/branch-details" Component={BranchDetails}/>
-    </div>
+      <div className="App">
+        <Navbar />
+        <Switch>
+          <Route exact path="/">
+            <HeroSection />
+            <AboutSection />
+            <VideoSection />
+            <SalvationSection />
+            <PhotoSection />
+            <FindBranch />
+            <BannerSection />
+            <ConnectSection />
+            <PastorsSection />
+            <EventSection />
+            {showBranchDetails && <BranchDetails handleCloseBranchDetails={handleCloseBranchDetails} />}
+            <InviteSection />
+            <ContactSection />
+            <FooterSection />
+          </Route>
+          <Route path="/branch-details" component={BranchDetails} />
+        </Switch>
+      </div>
     </Router>
   );
 }
