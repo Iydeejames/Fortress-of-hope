@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 import HeroSection from './components/Hero';
@@ -29,8 +30,10 @@ function App() {
   };
 
   return (
+    <Router>
     <div className="App">
       <Navbar />
+      <Route path="/">
       <HeroSection />
       <AboutSection />
       <VideoSection />
@@ -45,7 +48,10 @@ function App() {
       <InviteSection/>
       <ContactSection/>
       <FooterSection/>
+      </Route>
+      <Route path="/branch-details" Component={BranchDetails}/>
     </div>
+    </Router>
   );
 }
 

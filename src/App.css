@@ -885,19 +885,18 @@ video {
 
 .card-content {
   text-align: center;
-  margin: 20px; 
+  margin: 20px;
   width: 29rem;
-  background-color:  rgba(226, 226, 226, 0.315);
+  background-color: rgba(226, 226, 226, 0.315);
   padding: 1rem 1rem 3rem 1rem;
   box-shadow: 0.7rem 0.7rem 0.9rem, -0.7rem -0.7rem 0.9rem #fff;
   position: relative;
-  transition:  0.5s;
+  transition: 0.5s;
 }
 
 .card-content img {
-  width: 380px; 
+  width: 380px;
   height: 330px;
- /* box-shadow: 0.7rem 0.7rem 0.9rem, -0.7rem -0.7rem 0.9rem #fff; */
 }
 
 .card-content h3 {
@@ -912,7 +911,7 @@ video {
   border-radius: 20%;
   cursor: pointer;
   position: relative;
-  color: #ff0000; 
+  color: #ff0000;
   font-weight: 800;
   font-size: 1rem;
   font-style: italic;
@@ -925,19 +924,22 @@ video {
 }
 
 .story {
-  background-color: lightgray; 
+  background-color: lightgray;
   padding: 10px;
   margin-top: 10px;
-  display: none;
+  display: none; /* Initially hide the story */
 }
 
 .story-paragraph {
   font-size: 11px;
+  color: #333;
 }
 
+/* Show the story when the .change class is added to .story-btn */
 .story-btn.change + .story {
   display: block;
 }
+
 
 /* invite-section */
 .invite-section {
