@@ -4,7 +4,7 @@ import { FaWhatsapp, FaInstagram, FaTwitter, FaFacebook, FaLinkedin, FaMobileAlt
 const ContactSection = () => {
     return (
         <div className="contact-section">
-            <h1></h1>
+
             <div className="section-heading-line"></div>
             <div className="contact-wrapper">
                 <div className="contact-details">
