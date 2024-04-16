@@ -1,11 +1,16 @@
 import React from 'react';
+import PropTypes from 'prop-types'; // Import PropTypes for prop type validation
 import FI10 from "../../assets/imgs/FI10.jpg";
 import FI14 from "../../assets/imgs/FI14.jpg";
 import FI15 from "../../assets/imgs/FI15.jpg";
 
 const BranchDetails = ({ handleCloseDetails }) => {
   const handleBackButtonClick = () => {
-    handleCloseDetails(); // Call handleCloseDetails to navigate back to the main page
+    if (typeof handleCloseDetails === 'function') {
+      handleCloseDetails(); // Call handleCloseDetails to navigate back to the main page
+    } else {
+      console.error("handleCloseDetails is not a function");
+    }
   };
 
   return (
@@ -52,5 +57,9 @@ const BranchDetails = ({ handleCloseDetails }) => {
   );
 };
 
+// Define prop types to ensure handleCloseDetails is a function
+BranchDetails.propTypes = {
+  handleCloseDetails: PropTypes.func.isRequired
+};
 
 export default BranchDetails;
