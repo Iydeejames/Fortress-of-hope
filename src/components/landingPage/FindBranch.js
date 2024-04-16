@@ -5,7 +5,7 @@ const FindBranch = () => {
   return (
     <div className='find-branch-container'>
       <h2>Find a Branch nearest to you</h2>
-      <Link to='/branch-details'>
+      <Link to='/BranchDetails'>
         <button>Locations</button>
       </Link>
     </div>
