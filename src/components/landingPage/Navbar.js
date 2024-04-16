@@ -42,7 +42,6 @@ const Navbar = () => {
                     <Link to="/mediaresources" onClick={handleNavLinkClick}>Media Resources</Link>
                     <Link to="/onlinegiving" onClick={handleNavLinkClick}>Online Giving</Link>
                     <Link to="/contact us" onClick={handleNavLinkClick}>Contact Us</Link>
-                    {/* Add more links as needed */}
                 </div>
                 <div className="menu-icon" onClick={toggleMenu}>
                     <span></span>

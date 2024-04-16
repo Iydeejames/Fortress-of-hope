@@ -15,6 +15,7 @@ import ContactSection from '../components/landingPage/Contact'
 import FooterSection from '../components/landingPage/Footer'
 
 
+
 export default function LandingPage() {
   return (
     <div>
