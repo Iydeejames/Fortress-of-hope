@@ -41,7 +41,7 @@ const Navbar = () => {
                     <Link to="/whatwedo" onClick={handleNavLinkClick}>What We Do</Link>
                     <Link to="/mediaresources" onClick={handleNavLinkClick}>Media Resources</Link>
                     <Link to="/onlinegiving" onClick={handleNavLinkClick}>Online Giving</Link>
-                    <Link to="/contact us" onClick={handleNavLinkClick}>Contact Us</Link>
+                    <Link to="/contact" onClick={handleNavLinkClick}>Contact Us</Link>
                 </div>
                 <div className="menu-icon" onClick={toggleMenu}>
                     <span></span>
