@@ -17,7 +17,6 @@ function PageRoutes() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/BranchDetails" element={<BranchDetails />} />
         <Route path="/AboutUs" element={<AboutUs />} />
-        <Route path="/home" element={<Home />} />
 <Route path="/whatwedo" element={<WhatWeDo />} />
 <Route path="/mediaresources" element={<MediaResources />} />
 <Route path="/onlinegiving" element={<OnlineGiving />} />
