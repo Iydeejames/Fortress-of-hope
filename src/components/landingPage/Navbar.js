@@ -38,10 +38,10 @@ const Navbar = () => {
 
                     <Link to="/home" onClick={handleNavLinkClick}>Home</Link>
                     <Link to="/aboutus" onClick={handleNavLinkClick}>About Us</Link>
-                    <Link to="/what we do" onClick={handleNavLinkClick}>About Us</Link>
-                    <Link to="/media resources" onClick={handleNavLinkClick}>About Us</Link>
-                    <Link to="/online giving" onClick={handleNavLinkClick}>About Us</Link>
-                    <Link to="/contact us" onClick={handleNavLinkClick}>About Us</Link>
+                    <Link to="/whatwedo" onClick={handleNavLinkClick}>What We Do</Link>
+                    <Link to="/mediaresources" onClick={handleNavLinkClick}>Media Resources</Link>
+                    <Link to="/onlinegiving" onClick={handleNavLinkClick}>Online Giving</Link>
+                    <Link to="/contact us" onClick={handleNavLinkClick}>Contact Us</Link>
                     {/* Add more links as needed */}
                 </div>
                 <div className="menu-icon" onClick={toggleMenu}>
