@@ -1,5 +1,6 @@
 import React from 'react'
-import HeroSection from '../components/landingPage/Hero'
+import HeroSection from '../components/landingPage/Navbar'
+import NavbarSection from '../components/landingPage/Hero'
 import AboutSection from '../components/landingPage/AboutUs'
 import SalvationSection from '../components/landingPage/Salvation'
 import PhotoSection from '../components/landingPage/Photo'
@@ -17,6 +18,7 @@ import FooterSection from '../components/landingPage/Footer'
 export default function LandingPage() {
   return (
     <div>
+             <NavbarSection />
             <HeroSection />
             <AboutSection />
             <VideoSection />
