@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import FI1 from "../assets/imgs/FI1.PNG";
+import FI1 from "../../assets/imgs/FI1.PNG";
 
 const Navbar = () => {
     const[MenuOpen, setMenuOpen] = useState(false);

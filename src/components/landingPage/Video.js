@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay, faPause } from '@fortawesome/free-solid-svg-icons';
 
-import video1 from '../assets/imgs/FI8.MOV';
-import video2 from '../assets/imgs/FI9.MOV';
+import video1 from '../../assets/imgs/FI8.MOV';
+import video2 from '../../assets/imgs/FI9.MOV';
 
 const VideoSection = () => {
   const [isPlaying, setPlaying] = useState(Array(6).fill(false));

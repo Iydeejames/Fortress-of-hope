@@ -1,7 +1,7 @@
 import React from 'react';
-import FI10 from "../assets/imgs/FI10.jpg";
-import FI14 from "../assets/imgs/FI14.jpg";
-import FI15 from "../assets/imgs/FI15.jpg";
+import FI10 from "../../assets/imgs/FI10.jpg";
+import FI14 from "../../assets/imgs/FI14.jpg";
+import FI15 from "../../assets/imgs/FI15.jpg";
 
 const BranchDetails = ({ handleCloseDetails }) => {
   const handleBackButtonClick = () => {

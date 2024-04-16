@@ -1,5 +1,5 @@
 import React from 'react';
-import backgroundImage from "../assets/imgs/FI22.JPG";
+// import backgroundImage from "../assets/imgs/FI22.JPG";
 
 const InviteSection = () => {
 

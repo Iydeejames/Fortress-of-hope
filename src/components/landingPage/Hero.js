@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-//import FI14 from "../assets/imgs/FI14.jpg";
-import FI23 from "../assets/imgs/FI23.JPG";
-import FI3 from "../assets/imgs/FI3.JPG";
-//import FI22 from "../assets/imgs/FI22.JPG";
-//import FI4 from "../assets/imgs/FI4.JPG";
-//import FI5 from "../assets/imgs/FI5.JPG";
+//import FI14 from "../../assets/imgs/FI14.jpg";
+import FI23 from "../../assets/imgs/FI23.JPG";
+import FI3 from "../../assets/imgs/FI3.JPG";
+//import FI22 from "../../assets/imgs/FI22.JPG";
+//import FI4 from "../../assets/imgs/FI4.JPG";
+//import FI5 from "../../assets/imgs/FI5.JPG";
 
 const HeroSection = () => {
     const [currentIndex, setCurrentIndex] = useState(0);

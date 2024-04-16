@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import firstPhoto from '../assets/imgs/FI5.JPG';
-import secondPhoto from '../assets/imgs/FI21.JPG';
+import firstPhoto from '../../assets/imgs/FI5.JPG';
+import secondPhoto from '../../assets/imgs/FI21.JPG';
 
 const PastorsSection = () => {
     const [isOpenFirst, setIsOpenFirst] = useState(false);
