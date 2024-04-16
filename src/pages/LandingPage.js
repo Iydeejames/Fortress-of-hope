@@ -27,7 +27,6 @@ export default function LandingPage() {
             <ConnectSection />
             <PastorsSection />
             <EventSection />
-
             <InviteSection />
             <ContactSection />
             <FooterSection />
