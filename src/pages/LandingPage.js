@@ -17,7 +17,7 @@ import BranchDetails from '../components/landingPage/BranchDetails'
 export default function LandingPage() {
   return (
     <div>
-       <HeroSection />
+            <HeroSection />
             <AboutSection />
             <VideoSection />
             <SalvationSection />
