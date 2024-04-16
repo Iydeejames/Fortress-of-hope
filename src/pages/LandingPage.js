@@ -12,7 +12,7 @@ import EventSection from '../components/landingPage/Events'
 import InviteSection from '../components/landingPage/Invite'
 import ContactSection from '../components/landingPage/Contact'
 import FooterSection from '../components/landingPage/Footer'
-import BranchDetails from '../components/landingPage/BranchDetails'
+
 
 export default function LandingPage() {
   return (
@@ -27,7 +27,7 @@ export default function LandingPage() {
             <ConnectSection />
             <PastorsSection />
             <EventSection />
-            <BranchDetails/>
+
             <InviteSection />
             <ContactSection />
             <FooterSection />
