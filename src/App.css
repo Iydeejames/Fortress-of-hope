@@ -964,7 +964,7 @@ video {
 .contact-section {
   width: 100%;
   height: auto;
-  background-color: #444;
+  background-color: #444444a9;
   display: flex;
   align-items: center;
   justify-content: center; /* Add this line */
@@ -1003,13 +1003,13 @@ video {
   font-family: 'Times New Roman', Times, serif;
   font-size: 0.9rem;
   margin: 0.3rem 0;
-  color: #ccc;
+  color: #fff;
 }
 
 .contact-details p {
   font-size: 0.75rem;
   font-family: 'Times New Roman', Times, serif;
-  color: #aaa;
+  color: #fff;
 }
 
 .contact-bar h1 {
@@ -1036,7 +1036,7 @@ video {
 .contact-form input,
 .contact-form textarea {
   padding: 0.4rem;
-  background-color: #eee;
+  background-color: #fff;
   color: #333;
   border: none;
   margin-bottom: 0.8rem;
@@ -1065,6 +1065,18 @@ video {
   color: #eee;
 }
 
+.social-media a{
+  font-size: 0.9rem;
+  color: #fff;
+  margin: 0.5rem;
+  transition: color 0.5s;
+  text-decoration: none;
+}
+
+.social-media a :hover{
+  color: #000;
+}
+
 /* Footer */
 .footer-section{
   height: 4vh;
@@ -1085,19 +1097,7 @@ video {
 }
 
 .footer-nav a:hover{
-  color: #940909;
-}
-
-.social-media a{
-  font-size: 0.9rem;
-  color: #fcfcfc;
-  margin: 0.5rem;
-  transition: color 0.5s;
-  text-decoration: none;
-}
-
-.social-media a :hover{
-  color: #099481;
+  color: #fff;
 }
 
 .copyright{
