@@ -8,12 +8,12 @@ const PastorsSection = () => {
 
     const toggleStoryFirst = () => {
         setIsOpenFirst(!isOpenFirst);
-        if (isOpenSecond) setIsOpenSecond(false); // Close the second card when opening the first one
+        if (isOpenSecond) setIsOpenSecond(false); // Closes the second card when opening the first one
     };
 
     const toggleStorySecond = () => {
         setIsOpenSecond(!isOpenSecond);
-        if (isOpenFirst) setIsOpenFirst(false); // Close the first card when opening the second one
+        if (isOpenFirst) setIsOpenFirst(false); // Closes the first card when opening the second one
     };
 
     return (
