@@ -54,7 +54,7 @@ const VideoSection = () => {
             </div>
             <div className="video-info">
               <h3>
-                <a href="#">{videoTitles[index]}</a>
+                <a href="">{videoTitles[index]}</a>
               </h3>
             </div>
           </div>
