@@ -12,7 +12,7 @@ function PageRoutes() {
         <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/branchdetails" element={<BranchDetails />} />
-            <Route path="/aboutus" element={<AboutUs />} />
+
             <Route path="/whatwedo" element={<WhatWeDo />} />
             <Route path="/mediaresources" element={<MediaResources />} />
             <Route path="/onlinegiving" element={<OnlineGiving />} />

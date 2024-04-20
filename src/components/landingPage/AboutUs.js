@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutSection = () => {
   return (
-    <div className="about-section">
+    <div id="aboutus" className="about-section">
       <div className="about-card">
         <h2 className="about-heading">About Us</h2>
         <p className="about-text">
@@ -15,6 +15,7 @@ const AboutSection = () => {
       </div>
     </div>
   );
+  
 };
 
 export default AboutSection;
