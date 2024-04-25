@@ -52,4 +52,5 @@ const PastorsSection = () => {
     );
 };
 
+
 export default PastorsSection;
