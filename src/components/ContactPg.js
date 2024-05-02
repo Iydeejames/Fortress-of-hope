@@ -14,6 +14,7 @@ const ContactSection = () => {
                         <h3>Phone</h3>
                         <p>+234 000 000 0000</p>
                     </div>
+                    
                     <div className="address">
                         <FaMapMarkerAlt />
                         <h3>Address</h3>
