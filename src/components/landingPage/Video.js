@@ -16,6 +16,7 @@ const VideoSection = () => {
     const updatedPlaying = [...isPlaying];
     updatedPlaying[index] = !updatedPlaying[index];
     setPlaying(updatedPlaying);
+    
 
     const videos = document.getElementsByTagName('video');
     for (let i = 0; i < videos.length; i++) {
