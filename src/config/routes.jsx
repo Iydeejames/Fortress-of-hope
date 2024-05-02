@@ -5,7 +5,7 @@ import AboutUs from '../components/landingPage/AboutUs';
 import WhatWeDo from '../components/WhatWeDo';
 import MediaResources from '../components/MediaResources';
 import OnlineGiving from '../components/OnlineGiving';
-import Contact from '../components/landingPage/Contact';
+import ContactPg from '../components/ContactPg';
 
 function PageRoutes() {
     return (
@@ -15,7 +15,7 @@ function PageRoutes() {
             <Route path="/whatwedo" element={<WhatWeDo />} />
             <Route path="/mediaresources" element={<MediaResources />} />
             <Route path="/onlinegiving" element={<OnlineGiving />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/contactpg" element={<ContactPg />} />
 
         {/* <Authlayout/> */}
         {/* <Outlet/> */}
