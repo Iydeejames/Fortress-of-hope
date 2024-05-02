@@ -1,8 +1,10 @@
 import React from "react";
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 import { FaWhatsapp, FaInstagram, FaTwitter, FaFacebook, FaLinkedin, FaMobileAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
-const ContactSection = () => {
+const ContactPg = () => {
     return (
         <div className="contact-section">
 
@@ -14,7 +16,7 @@ const ContactSection = () => {
                         <h3>Phone</h3>
                         <p>+234 000 000 0000</p>
                     </div>
-                    
+
                     <div className="address">
                         <FaMapMarkerAlt />
                         <h3>Address</h3>
@@ -55,4 +57,4 @@ const ContactSection = () => {
     )
 };
 
-export default ContactSection;
+export default ContactPg;
