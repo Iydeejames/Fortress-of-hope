@@ -30,13 +30,13 @@ const Navbar = () => {
 
     return (
         <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
-            <div className="container">
+            <div  className="container">
                 <div className="logo-container">
                     <img src={FI1} alt="Logo" className="logo-image" />
                 </div>
                 <div className={`nav-links ${menuOpen ? "active" : ""}`}>
 
-                    <Link to="/home" onClick={handleNavLinkClick}>Home</Link>
+                    <a href="#home" onClick={handleNavLinkClick}>Home</a>
                     <a href="#aboutus" onClick={handleNavLinkClick}>About Us</a>
                     <Link to="/whatwedo" onClick={handleNavLinkClick}>What We Do</Link>
                     <Link to="/mediaresources" onClick={handleNavLinkClick}>Media Resources</Link>
