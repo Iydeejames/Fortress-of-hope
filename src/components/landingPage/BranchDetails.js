@@ -19,6 +19,7 @@ const BranchDetails = ({ handleCloseDetails }) => {
         <button className="close-button" onClick={handleBackButtonClick}>
           X
         </button>
+        
         <h2 className='heading'>Worship with us at:</h2>
         <div className="branch-details">
           <div className="branch-item">
