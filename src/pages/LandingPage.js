@@ -18,7 +18,7 @@ import FooterSection from '../components/landingPage/Footer'
 export default function LandingPage() {
   return (
     <div>
-             <NavbarSection />
+            <NavbarSection />
             <HeroSection />
             <AboutSection />
             <VideoSection />

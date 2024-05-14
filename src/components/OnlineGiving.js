@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AboutSection = () => {
+const OnlineGiving = () => {
   return (
     <div className="online-giving">
 
@@ -8,5 +8,5 @@ const AboutSection = () => {
   );
 };
 
-export default AboutSection;
+export default OnlineGiving;
 

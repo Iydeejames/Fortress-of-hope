@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AboutSection = () => {
+const WhatWeDoSection = () => {
   return (
     <div className="what-we-do">
         
@@ -8,5 +8,5 @@ const AboutSection = () => {
   );
 };
 
-export default AboutSection;
+export default WhatWeDoSection;
 
