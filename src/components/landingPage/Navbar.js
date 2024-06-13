@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom'; // Import Link from React Router
+import { Link } from 'react-router-dom'; 
 import FI1 from "../../assets/imgs/FI1.PNG";
 
 const Navbar = () => {
